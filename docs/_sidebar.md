@@ -19,3 +19,4 @@
       - [2.3.2 Diagrama de Pacotes](./Modelagem/Organizacional/Pacotes.md)
     - [2.4. Participações - Modelagem](./Modelagem/Participacoes/2.4.ParticipacoesModelagem.md)
     - [2.5. Iniciativas Extras - Modelagem](./Modelagem/Extra/2.5.IniciativasExtras.md)
+      - [2.5.1 - Ata 1](./Modelagem/Extra/Atas/ata1.md)
