@@ -32,9 +32,18 @@ Reunião de planejamento da Entrega 2 da disciplina, com foco na definição dos
 
 <div style="text-align: center">
 
-<img src="../assets/divisaoGrupo.png" alt="Divisão dos artefatos" width="70%"/>
+**Imagem 1: Divisão dos Grupos**
+
+![Divisão do grupos](./assets/divisao.jpg)
+<font size="3"><p style="text-align: center"><b>Autores: [Rafael Pereira](https://github.com/rafgpereira)</b></p></font>
 
 </div>
+
+---
+
+<div style="text-align: center">
+
+**Tabela 1: Divisão dos Grupos**
 
 
 |                       | **Grupo 1** | **Grupo 2** |
@@ -44,7 +53,9 @@ Reunião de planejamento da Entrega 2 da disciplina, com foco na definição dos
 | **Foco 2**<br>Modelagem UML Dinâmica | Diagrama de Sequência | Diagrama de Atividades ou Diagrama de Comunicação/Colaboração ou Diagrama de Estados |
 | **Foco 3**<br>Modelagem Casos de Uso | Diagrama de Casos de Uso | Diagrama de Pacotes |
 
----
+<font size="3"><p style="text-align: center"><b>Autores: [Milena Rocha](https://github.com/MilenaFRocha)</b></p></font>
+
+</div>
 
 **Todos os artefatos devem possuir:**
 
@@ -55,7 +66,6 @@ Reunião de planejamento da Entrega 2 da disciplina, com foco na definição dos
 - **Bibliografia/Referências** (padrão ABNT, mais de uma sempre que possível)
 - **Histórico de Versões** (detalhado, com todos os registros de alterações possíveis)
 
-
 - Cada grupo ficará responsável pela produção completa de um artefato específico.
 - As tarefas foram divididas de maneira que cada grupo possa se organizar de forma independente e focada.
 
@@ -63,15 +73,17 @@ Reunião de planejamento da Entrega 2 da disciplina, com foco na definição dos
 
 ## Cronograma da Reunião
 
-Na Tabela 1 estão listadas as informações técnicas da reunião.
+Na Tabela 2 estão listadas as informações técnicas da reunião.
 
 <div align="center">
 
-**Tabela 1: Cronograma da Reunião**
+**Tabela 2: Cronograma da Reunião**
 
 | Data       | Hora  | Mediador              | Duração | Local                  |
 |------------|-------|------------------------|---------|------------------------|
 | 26/04/2025 | 15:30 | [Rafael Pereira](https://github.com/rafgpereira) | 41min    | Online (Microsoft Teams) |
+
+<font size="3"><p style="text-align: center"><b>Autores: [Milena Rocha](https://github.com/MilenaFRocha)</b></p></font>
 
 </div>
 
@@ -108,4 +120,4 @@ _Reunião encerrada com a definição clara dos grupos e atividades da Entrega 2
 | Versão | Data       | Descrição                                      | Autor               | Revisor            |
 |--------|------------|------------------------------------------------|---------------------|--------------------|
 | 1.0    | 26/04/2025 | Criação do documento e tabelas, upload do vídeo e padronização | [Milena Rocha](https://github.com/milenafrocha)          | [Rafael Pereira](https://github.com/rafgpereira)  |
-
+| 1.1    | 26/04/2025 | Ajustes de imagens e autores | [Milena Rocha](https://github.com/milenafrocha)          | [Rafael Pereira](https://github.com/rafgpereira)  |
