@@ -121,3 +121,4 @@ _Reunião encerrada com a definição clara dos grupos e atividades da Entrega 2
 |--------|------------|------------------------------------------------|---------------------|--------------------|
 | 1.0    | 26/04/2025 | Criação do documento e tabelas, upload do vídeo e padronização | [Milena Rocha](https://github.com/milenafrocha)          | [Rafael Pereira](https://github.com/rafgpereira)  |
 | 1.1    | 26/04/2025 | Ajustes de imagens e autores | [Milena Rocha](https://github.com/milenafrocha)          | [Rafael Pereira](https://github.com/rafgpereira)  |
+| 1.2    | 29/04/2025 | Exclusão de imagem depois da revisão | [Milena Rocha](https://github.com/milenafrocha)          | [Rafael Pereira](https://github.com/rafgpereira)  |
