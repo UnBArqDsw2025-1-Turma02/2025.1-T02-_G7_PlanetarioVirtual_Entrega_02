@@ -124,7 +124,16 @@ Pedido - - - - -> Cliente
 Essa padronização na representação é fundamental para garantir a clareza e a compreensão entre analistas, desenvolvedores e outros stakeholders ao longo do projeto de software <sup>7</sup>.
 
 
+## Diagrama de Classe do Planetário Virtual
 
+![Diagrama de Classe](./assets/DiagramaDeClasse.png)
+
+### Resumo 
+Este diagrama representa um sistema social para um planetário virtual, permitindo aos usuários:
+- Criar e gerenciar perfis.
+- Publicar conteúdos (postagens).
+- Interagir por meio de curtidas, não curtidas e comentários.
+- Relacionar dados com integridade (ex.: um comentário só existe vinculado a uma postagem)
 
 ## Referências Bibliográficas
 
@@ -147,5 +156,6 @@ Essa padronização na representação é fundamental para garantir a clareza e 
 |--------|------------|------------------------------------------------|---------------------|--------------------|
 | 1.0    | 30/04/2025 | Criação do documento com divisões a serem preenchidas conforme o padrão | [Milena Rocha](https://github.com/milenafrocha)          | [Rafael Pereira](https://github.com/rafgpereira)  |
 | 1.1    | 01/05/2025 | Adição de introdução e metodologia bem como suas respectivas referências | [Milena Rocha](https://github.com/milenafrocha)          | [Rafael Pereira](https://github.com/rafgpereira)  |
+| 1.2    | 01/05/2025 | Adição da foto do diagrama | [Milena Rocha](https://github.com/milenafrocha)          | [Rafael Pereira](https://github.com/rafgpereira)  |
 
 
