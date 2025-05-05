@@ -126,14 +126,60 @@ Essa padronização na representação é fundamental para garantir a clareza e 
 
 ## Diagrama de Classe do Planetário Virtual
 
+<font size="3"><p style="text-align: center"><b>Figura 1:</b> Diagrama de Classe</p></font>
+<center>
+
 ![Diagrama de Classe](./assets/DiagramaDeClasse.png)
 
-### Resumo 
-Este diagrama representa um sistema social para um planetário virtual, permitindo aos usuários:
-- Criar e gerenciar perfis.
-- Publicar conteúdos (postagens).
-- Interagir por meio de curtidas, não curtidas e comentários.
-- Relacionar dados com integridade (ex.: um comentário só existe vinculado a uma postagem)
+</center>
+
+<font size="3"><p style="text-align: center"><b>Autores</b>: [João Pedro](https://github.com/JoaoPedrooSS),[Rafael Pereira](https://github.com/rafgpereira),[Milena Rocha](https://github.com/milenafrocha),[Manoel Moura](https://github.com/manoelmoura)e [Raphaela Guimarães](https://github.com/raphaiela) 2025.</p></font>
+
+### Especificação estendida do Diagrama de Classe 
+
+### 1. **Classe `Usuário`**
+
+| **Elemento**        | **Descrição**                                                                                                                                                                                                                                                                                                                |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Atributos**       | - `id: string` — Identificador único do usuário. <br> - `nome: string` — Nome do usuário. <br> - `email: string` — Endereço de email. <br> - `senha: string` — Credencial de acesso. <br> - `sobre: string` — Descrição do usuário. <br> - `fotoUrl: string` — Caminho para a imagem de perfil.                              |
+| **Métodos**         | - `excluir()`: Exclui o usuário. <br> - `alterarEmail()`: Altera o email do usuário. <br> - `alterarSenha()`: Altera a senha do usuário. <br> - `validarEmail()`: Valida o formato do email. <br> - `validarSenha()`: Valida a senha. <br> - `comparaSenha(senha: string): boolean`: Verifica se a senha fornecida é válida. |
+| **Relacionamentos** | - **Usuário - Postagem**: Composição, onde um usuário pode ter várias postagens. <br> - **Usuário - Comentário**: Composição, onde um usuário pode comentar em postagens.                                                                                                                                                    |
+
+---
+
+### 2. **Classe `Postagem`**
+
+| **Elemento**        | **Descrição**                                                                                                                                                                                                                                                                                                           |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Atributos**       | - `id: string` — Identificador único da postagem. <br> - `texto: string` — Conteúdo textual da postagem. <br> - `dataCriacao: date` — Data em que a postagem foi criada. <br> - `totalCurtidas: int` — Contagem de curtidas recebidas. <br> - `totalNaoCurtidas: int` — Contagem de não curtidas recebidas.             |
+| **Métodos**         | - `editar()`: Edita o conteúdo da postagem. <br> - `excluir()`: Exclui a postagem. <br> - `curtir(usuario: Usuario)`: Método que permite a um usuário curtir a postagem. <br> - `naoCurtir(usuario: Usuario)`: Método que permite a um usuário não curtir a postagem. <br> |
+| **Relacionamentos** | - **Usuário - Postagem**: Composição, onde cada postagem pertence a um único usuário. <br> - **Postagem - Comentário**: Associações de um para muitos (uma postagem pode ter vários comentários). <br> - **Usuário - Reações (curte/nao curte)**: Relacionamento muitos-para-muitos com `Usuário`.                      |
+
+---
+
+### 3. **Classe `Comentario`**
+
+| **Elemento**        | **Descrição**                                                                                                                                                                                                                                                                                                                                                                                         |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Atributos**       | - `id: string` — Identificador único do comentário. <br> - `texto: string` — Conteúdo do comentário. <br> - `dataCriacao: date` — Data em que o comentário foi criado. <br> - `totalCurtidas: int` — Contagem de curtidas no comentário. <br> - `totalNaoCurtidas: int` — Contagem de não curtidas no comentário.                                                                                     |
+| **Métodos**         | - `editar()`: Edita o conteúdo do comentário. <br> - `excluir()`: Exclui o comentário. <br> - `curtir(usuario: Usuario)`: Método que permite a um usuário curtir o comentário. <br> - `naoCurtir(usuario: Usuario)`: Método que permite a um usuário não curtir o comentário. <br>  |
+| **Relacionamentos** | - **Usuário - Comentário**: Composição, onde um comentário é sempre feito por um usuário. <br> - **Postagem - Comentário**: Associação simples, onde cada comentário está associado a uma única postagem. <br> - **Usuário - Reações (curte/nao curte)**: Relacionamento muitos-para-muitos com `Usuário`.                                                                                            |
+
+---
+
+### 4. **Relacionamentos** (Resumo)
+
+| **Entidade** | **Entidade** | **Relacionamento** | **Cardinalidade** |**Descrição**                                                                                      |
+| -------------- | -------------- | -------------------------- | ----------------- | -------------------------------------------------------------------------------------------------- |
+| **Usuário**    | **Postagem**   | Composição                 | 1\:N              | Um usuário pode criar muitas postagens, mas cada postagem pertence a um único usuário.             |
+| **Usuário**    | **Comentário** | Composição                 | 1\:N              | Um usuário pode criar muitos comentários, mas cada comentário pertence a um único usuário.         |
+| **Postagem**   | **Comentário** | Associação simples         | 1\:N              | Uma postagem pode ter muitos comentários, mas cada comentário refere-se a uma única postagem.      |
+| **Usuário**    | **Postagem**   | Reações (curte/descurte)   | M\:N              | Um usuário pode curtir ou descurtir várias postagens, e cada postagem pode ter várias reações.     |
+| **Usuário**    | **Comentário** | Reações (curte/descurte)   | M\:N              | Um usuário pode curtir ou descurtir vários comentários, e cada comentário pode ter várias reações. |
+
+---
+
+
 
 ## Referências Bibliográficas
 
@@ -158,5 +204,6 @@ Este diagrama representa um sistema social para um planetário virtual, permitin
 | 1.1    | 01/05/2025 | Adição de introdução e metodologia bem como suas respectivas referências | [Milena Rocha](https://github.com/milenafrocha)          | [Rafael Pereira](https://github.com/rafgpereira)  |
 | 1.2    | 01/05/2025 | Adição da foto do diagrama | [Milena Rocha](https://github.com/milenafrocha)          | [Rafael Pereira](https://github.com/rafgpereira)  |
 | 1.3    | 05/05/2025 | Ajustes de hiperlinks e da foto do diagrama | [Milena Rocha](https://github.com/milenafrocha)          | [Rafael Pereira](https://github.com/rafgpereira)  |
+| 1.4    | 05/05/2025 | Refatoração conjunta |[João Pedro](https://github.com/JoaoPedrooSS),[Rafael Pereira](https://github.com/rafgpereira),[Milena Rocha](https://github.com/milenafrocha),[Manoel Moura](https://github.com/manoelmoura)e [Raphaela Guimarães](https://github.com/raphaiela) | [Rafael Pereira](https://github.com/rafgpereira)  |
 
 
