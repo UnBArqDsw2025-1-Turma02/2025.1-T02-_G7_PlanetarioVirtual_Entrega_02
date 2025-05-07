@@ -126,6 +126,20 @@ Essa padronização na representação é fundamental para garantir a clareza e 
 
 ## Diagrama de Classe do Planetário Virtual
 
+Para a elaboração deste artefato, foram realizadas duas reuniões online com os cinco integrantes responsáveis. As atas e gravações dessas reuniões estão documentadas no projeto: [Ata - Início do Diagrama de Classes](Modelagem/Extra/Atas/ata2.md) e [Ata - Finalização do Diagrama de Classes](Modelagem/Extra/Atas/ata3.md). Foi utilizada a ferramenta Lucidchart para a elaboração do Diagrama UML.
+
+Inicialmente, surgiu uma dúvida sobre o que exatamente representar no diagrama, já que seu escopo pode ser bastante amplo. A principal questão era se o diagrama deveria abranger todo o sistema (incluindo artefatos da interface) ou apenas o domínio, ou seja, as entidades persistentes no sistema. Após discussão em grupo e alinhamento com a professora, decidiu-se por representar somente o domínio. Com base na [Baseline de Requisitos](https://unbarqdsw2025-1-turma02.github.io/2025.1-T02-_G7_PlanetarioVirtual_Entrega_01/#/./Base/Elicitacao/1.6.3RequisitosElicitados), três classes foram prontamente identificadas: `Usuário`, `Postagem` e `Comentário`.
+
+O grupo optou por representar todos os métodos das classes, incluindo os métodos _get_ e _set_, que normalmente são abstraídos em diagramas mais simplificados. Uma dúvida recorrente foi quanto à inclusão de certos métodos, como o de exclusão, que em uma visão mais técnica poderiam estar associados a controladores ou casos de uso, e não diretamente à classe. No entanto, o grupo entendeu que, neste contexto, o foco do diagrama não está na implementação exata em código, mas sim na definição clara das responsabilidades de cada entidade dentro do sistema.
+
+Partindo para os relacionamentos, inicialmente todos foram modelados como associações. No entanto, com o aprofundamento na documentação e a definição de decisões arquiteturais, estabeleceu-se que, ao excluir um usuário, todas as suas postagens e comentários também seriam removidos. Por outro lado, os _likes_ e _dislikes_ permanecem registrados — ou seja, o número de curtidas de uma publicação não diminui se um usuário que a curtiu apagar sua conta.
+
+Da mesma forma, definiu-se que, ao excluir uma postagem, todos os seus comentários também seriam excluídos. Diante dessas decisões, as relações entre o usuário e suas postagens e comentários passaram a ser representadas como **composições**, por refletirem diretamente essa dependência de existência. Já as relações de curtir e não curtir continuaram sendo representadas como **associações**, pois não implicam em uma dependência de ciclo de vida entre as entidades envolvidas.
+
+O **Diagrama de Classes** elaborado após todas as decisões tomadas pode ser visualizado na **Figura 1** abaixo, e sua descrição está detalhada na **Especificação estendida**.
+
+---
+
 <font size="3"><p style="text-align: center"><b>Figura 1:</b> Diagrama de Classe</p></font>
 <center>
 
@@ -133,37 +147,39 @@ Essa padronização na representação é fundamental para garantir a clareza e 
 
 </center>
 
-<font size="3"><p style="text-align: center"><b>Autores</b>: [João Pedro](https://github.com/JoaoPedrooSS), [Rafael Pereira](https://github.com/rafgpereira), [Milena Rocha](https://github.com/milenafrocha), [Manoel Moura](https://github.com/manoelmoura) e [Raphaela Guimarães](https://github.com/raphaiela) 2025.</p></font>
+<font size="3"><p style="text-align: center"><b>Autores</b>: [João Pedro](https://github.com/JoaoPedrooSS), [Rafael Pereira](https://github.com/rafgpereira), [Milena Rocha](https://github.com/milenafrocha), [Manoel Moura](https://github.com/manoelmoura) e [Raphaela Guimarães](https://github.com/raphaiela), 2025.</p></font>
+
+---
 
 ### Especificação estendida do Diagrama de Classe 
 
 ### 1. **Classe `Usuário`**
 
-| **Elemento**        | **Descrição**                                                                                                                                                                                                                                                                                                                |
-| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Atributos**       | - `id: string` — Identificador único do usuário. <br> - `nome: string` — Nome do usuário. <br> - `email: string` — Endereço de email. <br> - `senha: string` — Credencial de acesso. <br> - `sobre: string` — Descrição do usuário. <br> - `fotoUrl: string` — Caminho para a imagem de perfil.                              |
-| **Métodos**         | - `excluir()`: Exclui o usuário. <br> - `alterarEmail()`: Altera o email do usuário. <br> - `alterarSenha()`: Altera a senha do usuário. <br> - `validarEmail()`: Valida o formato do email. <br> - `validarSenha()`: Valida a senha. <br> - `comparaSenha(senha: string): boolean`: Verifica se a senha fornecida é válida. |
-| **Relacionamentos** | - **Usuário - Postagem**: Composição, onde um usuário pode ter várias postagens. <br> - **Usuário - Comentário**: Composição, onde um usuário pode comentar em postagens.                                                                                                                                                    |
+| **Elemento**        | **Descrição**            |
+| ------------------- | ------------------------- |
+| **Atributos**       | - `id: string` Identificador único do usuário <br> - `nome: string` Nome do usuário <br> - `email: string` Endereço de email <br> - `senha: string` Credencial de acesso <br> - `sobre: string` Descrição do usuário <br> - `fotoUrl: string` Caminho para a imagem de perfil                              |
+| **Métodos**         | + `Usuario(id, nome, email, senha, sobre, fotoUrl)` Construtor da classe Usuario <br> + `gets(): atributo` Retornam o valor dos atributos, exceto senha <br> + `sets(atributo): void` Definem um novo valor para os atributos, exceto email e senha <br> + `excluir(senha): boolean` Exclui o usuário se a senha for confirmada <br> + `alterarEmail(senha, novoEmail): boolean` Altera o email se a senha for confirmada <br> + `alterarSenha(senha, novaSenha): boolean` Altera a senha se a senha antiga for confirmada <br> - `validarEmail(email): boolean` Valida o formato correto do email <br> - `validarSenha(senha): boolean` Valida o formato correto da senha <br> - `comparaSenha(senha): boolean` Compara se a senha recebida é igual a senha original |
+| **Relacionamentos** | **Usuário - publica - Postagem**: Composição, em que um usuário pode publicar várias postagens <br> **Usuário - curte - Postagem**: Associação, em que um usuário pode curtir várias postagens <br> **Usuário - descurte - Postagem**: Associação, em que um usuário pode descurtir várias postagens <br> **Usuário - publica - Comentário**: Composição, em que um usuário pode publicar vários comentários <br> **Usuário - curte - Comentário**: Associação, em que um usuário pode curtir vários comentários <br> **Usuário - descurte - Comentário**: Associação, em que um usuário pode descurtir vários comentários <br>  |
 
 ---
 
 ### 2. **Classe `Postagem`**
 
-| **Elemento**        | **Descrição**                                                                                                                                                                                                                                                                                                           |
-| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Atributos**       | - `id: string` — Identificador único da postagem. <br> - `texto: string` — Conteúdo textual da postagem. <br> - `dataCriacao: date` — Data em que a postagem foi criada. <br> - `totalCurtidas: int` — Contagem de curtidas recebidas. <br> - `totalNaoCurtidas: int` — Contagem de não curtidas recebidas.             |
-| **Métodos**         | - `editar()`: Edita o conteúdo da postagem. <br> - `excluir()`: Exclui a postagem. <br> - `curtir(usuario: Usuario)`: Método que permite a um usuário curtir a postagem. <br> - `naoCurtir(usuario: Usuario)`: Método que permite a um usuário não curtir a postagem. <br> |
-| **Relacionamentos** | - **Usuário - Postagem**: Composição, onde cada postagem pertence a um único usuário. <br> - **Postagem - Comentário**: Associações de um para muitos (uma postagem pode ter vários comentários). <br> - **Usuário - Reações (curte/nao curte)**: Relacionamento muitos-para-muitos com `Usuário`.                      |
+| **Elemento**        | **Descrição** |
+| ------------------- | ---------------------- |
+| **Atributos**       | - `id: string`  Identificador único da postagem <br> - `texto: string`  Conteúdo textual da postagem <br> - `dataCriacao: date` Data em que a postagem foi criada <br> - `totalCurtidas: int` Contagem de curtidas recebidas <br> - `totalNaoCurtidas: int` Contagem de não curtidas recebidas             |
+| **Métodos**         | + `Postagem(autor, texto)` Construtor da classe Postagem <br> + `editar(texto): void` Altera o texto da postagem <br> + `excluir(): boolean` Exclui postagem e retorna confirmação <br> + `gets(): atributo` Retorna o valor dos atributos da postagem <br> + `curtir(usuario): void` Adiciona uma curtida de usuário na postagem  <br> + `naoCurtir(usuario): void` Adiciona uma não curtida de usuário na postagem <br>|
+| **Relacionamentos** | - **Postagem - possui - Comentários**: Composição, em que uma postagem pode possuir vários comentários |
 
 ---
 
 ### 3. **Classe `Comentario`**
 
-| **Elemento**        | **Descrição**                                                                                                                                                                                                                                                                                                                                                                                         |
-| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Atributos**       | - `id: string` — Identificador único do comentário. <br> - `texto: string` — Conteúdo do comentário. <br> - `dataCriacao: date` — Data em que o comentário foi criado. <br> - `totalCurtidas: int` — Contagem de curtidas no comentário. <br> - `totalNaoCurtidas: int` — Contagem de não curtidas no comentário.                                                                                     |
-| **Métodos**         | - `editar()`: Edita o conteúdo do comentário. <br> - `excluir()`: Exclui o comentário. <br> - `curtir(usuario: Usuario)`: Método que permite a um usuário curtir o comentário. <br> - `naoCurtir(usuario: Usuario)`: Método que permite a um usuário não curtir o comentário. <br>  |
-| **Relacionamentos** | - **Usuário - Comentário**: Composição, onde um comentário é sempre feito por um usuário. <br> - **Postagem - Comentário**: Associação simples, onde cada comentário está associado a uma única postagem. <br> - **Usuário - Reações (curte/nao curte)**: Relacionamento muitos-para-muitos com `Usuário`.                                                                                            |
+| **Elemento**        | **Descrição**                                                                                             |
+| ------------------- | ------------------- |
+| **Atributos**       | - `id: string`  Identificador único do comentário <br> - `texto: string`  Conteúdo textual do comentário <br> - `dataCriacao: date` Data em que o comentário foi criado <br> - `totalCurtidas: int` Contagem de curtidas recebidas <br> - `totalNaoCurtidas: int` Contagem de não curtidas recebidas    |
+| **Métodos**         | + `Comentario(autor, postagem, texto)` Construtor da classe comentário <br> + `editar(texto): void` Altera o texto do comentário <br> + `excluir(): boolean` Exclui comentário e retorna confirmação <br> + `gets(): atributo` Retorna o valor dos atributos do comentário <br> + `curtir(usuario): void` Adiciona uma curtida de usuário no comentário  <br> + `naoCurtir(usuario): void` Adiciona uma não curtida de usuário no comentário <br>|
+
 
 ---
 
@@ -171,11 +187,11 @@ Essa padronização na representação é fundamental para garantir a clareza e 
 
 | **Entidade** | **Entidade** | **Relacionamento** | **Cardinalidade** |**Descrição**                                                                                      |
 | -------------- | -------------- | -------------------------- | ----------------- | -------------------------------------------------------------------------------------------------- |
-| **Usuário**    | **Postagem**   | Composição                 | 1\:N              | Um usuário pode criar muitas postagens, mas cada postagem pertence a um único usuário.             |
-| **Usuário**    | **Comentário** | Composição                 | 1\:N              | Um usuário pode criar muitos comentários, mas cada comentário pertence a um único usuário.         |
-| **Postagem**   | **Comentário** | Associação simples         | 1\:N              | Uma postagem pode ter muitos comentários, mas cada comentário refere-se a uma única postagem.      |
-| **Usuário**    | **Postagem**   | Reações (curte/descurte)   | M\:N              | Um usuário pode curtir ou descurtir várias postagens, e cada postagem pode ter várias reações.     |
-| **Usuário**    | **Comentário** | Reações (curte/descurte)   | M\:N              | Um usuário pode curtir ou descurtir vários comentários, e cada comentário pode ter várias reações. |
+| **Usuário**    | **Postagem**   | Composição                 | 1\:N              | Um usuário pode criar muitas postagens, mas cada postagem pertence a um único usuário. Se o usuário for excluído, suas postagens também serão.          |
+| **Usuário**    | **Comentário** | Composição                 | 1\:N              | Um usuário pode criar muitos comentários, mas cada comentário pertence a um único usuário.  Se o usuário for excluído, seus comentários também serão.       |
+| **Postagem**   | **Comentário** | Composição         | 1\:N              | Uma postagem pode ter muitos comentários, mas cada comentário refere-se a uma única postagem. Se a postagem for excluída, seus comentários também serão.     |
+| **Usuário**    | **Postagem**   | Associação Simples (curte/descurte)   | M\:N              | Um usuário pode curtir ou descurtir várias postagens, e cada postagem pode ter várias reações.     |
+| **Usuário**    | **Comentário** | Associação Simples (curte/descurte)   | M\:N              | Um usuário pode curtir ou descurtir vários comentários, e cada comentário pode ter várias reações. |
 
 ---
 
@@ -205,5 +221,6 @@ Essa padronização na representação é fundamental para garantir a clareza e 
 | 1.2    | 01/05/2025 | Adição da foto do diagrama | [Milena Rocha](https://github.com/milenafrocha)          | [Rafael Pereira](https://github.com/rafgpereira)  |
 | 1.3    | 05/05/2025 | Ajustes de hiperlinks e da foto do diagrama | [Milena Rocha](https://github.com/milenafrocha)          | [Rafael Pereira](https://github.com/rafgpereira)  |
 | 1.4    | 05/05/2025 | Refatoração conjunta |[João Pedro](https://github.com/JoaoPedrooSS),[Rafael Pereira](https://github.com/rafgpereira),[Milena Rocha](https://github.com/milenafrocha),[Manoel Moura](https://github.com/manoelmoura)e [Raphaela Guimarães](https://github.com/raphaiela) | [Rafael Pereira](https://github.com/rafgpereira)  |
-
+| 1.5    | 07/05/2025 | Adição da descrição da elaboração do diagrama, com senso crítico | [Rafael Pereira](https://github.com/rafgpereira)  | [Milena Rocha](https://github.com/milenafrocha)          |
+| 1.6    | 07/05/2025 | Alterações na especificação estendida: melhor descrição dos métodos e relacionamentos | [Rafael Pereira](https://github.com/rafgpereira)  | [Milena Rocha](https://github.com/milenafrocha)          |
 
