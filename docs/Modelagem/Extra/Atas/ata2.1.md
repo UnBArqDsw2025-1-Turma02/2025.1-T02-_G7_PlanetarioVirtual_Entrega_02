@@ -1,46 +1,41 @@
 # Ata da Reunião – Arquitetura e Desenho de Software
 
-**Data:** 01/05/2025  
+**Data:** 30/04/2025  
 **Participantes Presentes:**
-- Antônio José Magalhães Leão Júnior  
-- Carlos Eduardo de Sousa Paz  
-- João Lucas Araújo Siqueira  
 - João Pedro Silva Sousa  
-- Letícia Torres Soares Martins  
 - Manoel Castro Moura Filho  
-- Milena Fernandes Rocha  
-- Rafael Gomes Pereira  
 - Raphaela Guimarães de Araújo dos Santos  
-- Taynara Gabrielle Vitorino    
+- Rafael Gomes Pereira  
+- Milena Fernandes Rocha  
 
 ---
 
 ## Assunto
 
-Reunião de finalização do **[Diagrama de Classes](Modelagem/Estatica/Classes.md)**, com alinhamento e validação com toda a equipe do projeto *Planetário Virtual*. A reunião visou a revisão das escolhas de modelagem, ajustes finais e integração dos feedbacks para o artefato final.
+Reunião de início da construção e alinhamento do [Diagrama de Classes](Modelagem/Estatica/Classes.md) como parte da Entrega 2 do projeto *Planetário Virtual*.
 
 ---
 
 ## Próxima Reunião
 
 **Atividades previstas:**
-- Revisão do [Diagrama de Classes](Modelagem/Estatica/Classes.md) pelos outros grupos.  
-- Ajustes finais e documentação de justificativas.  
-- Preparação para apresentação do artefato final.
+- Continuidade da construção do [Diagrama de Classes](Modelagem/Estatica/Classes.md).  
+- Alinhamento final com os demais integrantes do grupo.  
+- Finalização do artefato com base nas contribuições da equipe estendida.
 
 ---
 
 ## Consolidação da Reunião
 
-> Organização realizada durante a reunião de 01/05/2025.
+> Organização realizada durante a reunião de 30/04/2025.
 
 ### Atividades Desenvolvidas
 
-Nesta reunião, finalizamos o **[Diagrama de Classes](Modelagem/Estatica/Classes.md)** do sistema *Planetário Virtual*, com a participação de todos os membros da equipe. Realizamos uma revisão crítica das escolhas feitas nas modelagens anteriores, ajustando elementos como atributos, relacionamentos e visibilidade das classes para garantir que o modelo esteja consistente e completo.
+Durante esta reunião, demos início à elaboração do [Diagrama de Classes](Modelagem/Estatica/Classes.md) do sistema, com base nas funcionalidades previamente levantadas e na estrutura lógica identificada nos demais artefatos.
 
-Os ajustes foram realizados com base no feedback coletivo e nas necessidades de integração com os outros artefatos do projeto. Após a revisão, todos os membros validaram o diagrama e concordaram com a versão final do artefato.
+O grupo iniciou a modelagem dos principais elementos estruturais, como classes de controle, entidade e fronteira, respeitando os padrões UML e mantendo a consistência com os casos de uso e demais diagramas.
 
-Com a conclusão do diagrama, o grupo agora se prepara para a próxima fase, que envolverá a documentação e finalização de justificativas das escolhas de modelagem, além da preparação para a apresentação final.
+Entretanto, devido à necessidade de mais tempo para discutir todos os detalhes e integrar as contribuições dos demais integrantes do grupo, ficou decidido que será marcada uma **nova reunião de continuidade**, a fim de concluir o artefato e alinhar com a equipe completa.
 
 ---
 
@@ -54,7 +49,7 @@ Na Tabela 1 estão listadas as informações técnicas da reunião.
 
 | Data       | Hora  | Mediador              | Duração | Local                  |
 |------------|-------|------------------------|---------|------------------------|
-| 03/05/2025 | 17:00 | [Milena Rocha](https://github.com/milenafrocha) | 1h35min    | Online (Microsoft Teams) |
+| 29/04/2025 | 10:00 | [Milena Rocha](https://github.com/milenafrocha) | 1h18min    | Online (Microsoft Teams) |
 
 <font size="3"><p style="text-align: center"><b>Autores: [Milena Rocha](https://github.com/milenafrocha)</b></p></font>
 
@@ -63,9 +58,9 @@ Na Tabela 1 estão listadas as informações técnicas da reunião.
 ---
 
 ## Encaminhamentos
-- Documentação das justificativas e sensos críticos para o [Diagrama de Classes](Modelagem/Estatica/Classes.md).  
-- Preparação de uma versão final do artefato para entrega.  
-- Alinhamento com os outros grupos para a integração do diagrama nos artefatos finais.
+- Marcar nova reunião para finalização do diagrama e integração com os demais artefatos.  
+- Realizar validação com a equipe completa para assegurar consistência arquitetural.  
+- Iniciar documentação da justificativa das escolhas de modelagem na seção de Senso Crítico.
 
 ---
 
@@ -75,16 +70,16 @@ Reunião realizada via Teams e gravada.
 
 <div style="text-align: center">
 
-<font size="3"><p style="text-align: center">Vídeo 1: Continuação do [Diagrama de Classes](Modelagem/Estatica/Classes.md)</p></font>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2uFMTPE5g4E?si=GEoNwe3sRshnK3em" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<font size="3"><p style="text-align: center">Vídeo 1: Reunião do Grupo 1 - Criação do [Diagrama de Classes](Modelagem/Estatica/Classes.md)</p></font>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/thRa8WcFAdw?si=gvDcnMt3K3SXLyOx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<font size="3"><p style="text-align: center"><b>Autores: [Milena Rocha](https://github.com/milenafrocha)</b>. Continuação do [Diagrama de Classes](Modelagem/Estatica/Classes.md). Disponível em: <a href="https://www.youtube.com/watch?v=2uFMTPE5g4E">https://www.youtube.com/watch?v=2uFMTPE5g4E</a>. Acesso em: 03 de maio 2025.</p></font>
+<font size="3"><p style="text-align: center"><b>Autores: [Milena Rocha](https://github.com/milenafrocha)</b>. Reunião do Grupo 1 - Criação do [Diagrama de Classes](Modelagem/Estatica/Classes.md). Disponível em: <a href="https://www.youtube.com/watch?v=Yj7EPjaOqNI">https://www.youtube.com/watch?v=Yj7EPjaOqNI</a>. Acesso em: 01 de maio 2025.</p></font>
 
 </div>
 
 ---
 
-_Reunião encerrada com o [Diagrama de Classes](Modelagem/Estatica/Classes.md) finalizado e pronto para integração nos artefatos finais._
+_Reunião encerrada com o início da construção do [Diagrama de Classes](Modelagem/Estatica/Classes.md) e definição de continuidade na próxima sessão._
 
 ---
 
@@ -92,6 +87,5 @@ _Reunião encerrada com o [Diagrama de Classes](Modelagem/Estatica/Classes.md) f
 
 | Versão | Data       | Descrição                                      | Autor               | Revisor            |
 |--------|------------|------------------------------------------------|---------------------|--------------------|
-| 1.0    | 01/05/2025 | Finalização do [Diagrama de Classes](Modelagem/Estatica/Classes.md) e ajustes de modelagem | [Milena Rocha](https://github.com/milenafrocha)          | [Rafael Pereira](https://github.com/rafgpereira)  |
-| 1.1    | 01/05/2025 | Finalização da ata3 | [Milena Rocha](https://github.com/milenafrocha)          | [Rafael Pereira](https://github.com/rafgpereira)  |
-
+| 1.0    | 30/04/2025 | Criação da ata e inserção de informações técnicas | [Milena Rocha](https://github.com/milenafrocha)          | [Rafael Pereira](https://github.com/rafgpereira)  |
+| 1.1    | 30/04/2025 | Vídeo atualizado | [Milena Rocha](https://github.com/milenafrocha)          | [Rafael Pereira](https://github.com/rafgpereira)  |
