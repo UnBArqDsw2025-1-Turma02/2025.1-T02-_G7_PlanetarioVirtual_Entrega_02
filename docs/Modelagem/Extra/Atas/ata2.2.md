@@ -99,4 +99,4 @@ _Reunião encerrada com a definição clara dos grupos e atividades da Entrega 2
 
 | Versão | Data       | Descrição                                      | Autor               | Revisor            |
 |--------|------------|------------------------------------------------|---------------------|--------------------|
-| 1.0    | 05/05/2025 | Criação do documento e tabelas, upload do vídeo e padronização | [Leticia Torres](https://github.com/leticiatmartins)          |   |
+| 1.0    | 05/05/2025 | Criação do documento e tabelas, upload do vídeo e padronização | [Leticia Torres](https://github.com/leticiatmartins)          |  [Rafael Pereira](https://github.com/rafgpereira) |
