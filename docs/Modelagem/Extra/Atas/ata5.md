@@ -13,7 +13,7 @@
 
 ## Assunto
 
-Reunião de alinhamento para **início da construção do Diagrama de Caso de Uso** do projeto *Planetário Virtual*, com definição da ferramenta de modelagem e dos próximos passos da equipe e , consquentemente sua conclusão.
+Reunião de alinhamento para **início da construção do [Diagrama de Caso de Uso](/Modelagem/Organizacional/CasosDeUso.md)** do projeto *Planetário Virtual*, com definição da ferramenta de modelagem e dos próximos passos da equipe e , consquentemente sua conclusão.
 
 ---
 
@@ -34,7 +34,7 @@ Reunião de alinhamento para **início da construção do Diagrama de Caso de Us
 
 ### Atividades Desenvolvidas
 
-Durante a reunião de hoje, realizada via Microsoft Teams, foi decidido que a equipe daria início à construção do **Diagrama de Caso de Uso** utilizando a ferramenta **Lucidchart**, por conta de sua facilidade de colaboração em tempo real.
+Durante a reunião de hoje, realizada via Microsoft Teams, foi decidido que a equipe daria início à construção do **[Diagrama de Caso de Uso](/Modelagem/Organizacional/CasosDeUso.md)** utilizando a ferramenta **Lucidchart**, por conta de sua facilidade de colaboração em tempo real.
 
 Foi iniciado o processo de modelagem dos casos de uso baseados no [requisitos elicitados](https://unbarqdsw2025-1-turma02.github.io/2025.1-T02-_G7_PlanetarioVirtual_Entrega_01/#/./Base/Elicitacao/1.6.3RequisitosElicitados) na entrega passada.
 
@@ -73,17 +73,16 @@ Reunião realizada via Teams e gravada.
 
 <div style="text-align: center">
 
-<font size="3"><p style="text-align: center">Vídeo 1: Reunião de Criação do Diagrama de Caso de Uso </p></font>
+<font size="3"><p style="text-align: center">Vídeo 1: Reunião de Criação do [Diagrama de Caso de Uso](/Modelagem/Organizacional/CasosDeUso.md) </p></font>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lDiJMu1lunQ?si=FbvKployOor0eNif" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://youtu.be/lDiJMu1lunQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-<font size="3"><p style="text-align: center"><b>Autores: [Milena Rocha](https://github.com/milenafrocha)</b>. Reunião de Criação do Diagrama de Caso de Uso. Disponível em: <a href="https://youtu.be/lDiJMu1lunQ">[https://youtu.be/lDiJMu1lunQ](https://youtu.be/lDiJMu1lunQ)</a>. Acesso em: 07 de maio 2025.</p></font>
+<font size="3"><p style="text-align: center"><b>Autores: [Milena Rocha](https://github.com/milenafrocha)</b>. Reunião de Criação do [Diagrama de Caso de Uso](/Modelagem/Organizacional/CasosDeUso.md). Disponível em: <a href="https://youtu.be/lDiJMu1lunQ">[https://youtu.be/lDiJMu1lunQ](https://youtu.be/lDiJMu1lunQ)</a>. Acesso em: 07 de maio 2025.</p></font>
 
 </div>
 
 ---
 
-*Reunião encerrada com a definição da ferramenta e início da modelagem do Diagrama de Caso de Uso.*
+*Reunião encerrada com a definição da ferramenta e início da modelagem do [Diagrama de Caso de Uso](/Modelagem/Organizacional/CasosDeUso.md).*
 
 ---
 
@@ -91,5 +90,6 @@ Reunião realizada via Teams e gravada.
 
 | Versão | Data       | Descrição                                                 | Autor                                           | Revisor                                          |
 | ------ | ---------- | --------------------------------------------------------- | ----------------------------------------------- | ------------------------------------------------ |
-| 1.0    | 07/05/2025 | Criação da ata referente ao início do Diagrama de Caso de Uso | [Milena Rocha](https://github.com/milenafrocha) | [Rafael Pereira](https://github.com/rafgpereira) |
+| 1.0    | 07/05/2025 | Criação da ata referente ao início do [Diagrama de Caso de Uso](/Modelagem/Organizacional/CasosDeUso.md) | [Milena Rocha](https://github.com/milenafrocha) | [Rafael Pereira](https://github.com/rafgpereira) |
+| 1.1    | 07/05/2025 | Coloquei o link do vídeo e linkei o artefato criado| [Milena Rocha](https://github.com/milenafrocha) | [Rafael Pereira](https://github.com/rafgpereira) |
 
