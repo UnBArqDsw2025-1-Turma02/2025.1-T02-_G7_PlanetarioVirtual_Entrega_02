@@ -13,7 +13,7 @@
       - [2.1.2 Diagrama de Componentes ou Implantação](./Modelagem/Estatica/Decidir.md)
     - [2.2. Modelagem UML Dinâmica](./Modelagem/Dinamica/2.2.ModelagemDinamica.md)
       - [2.2.1 Diagrama de Sequência](./Modelagem/Dinamica/Sequencia.md)
-      - [2.2.2 Diagrama de Atividades ou Comunicação ou Estados](./Modelagem/Dinamica/Decidir.md)
+      - [2.2.2 Diagrama de Atividades](./Modelagem/Dinamica/Atividades.md)
     - [2.3. Modelagem UML Organizacional ou Casos de Uso](./Modelagem/Organizacional/2.3.ModelagemOrganizacionalCasosDeUso.md)
       - [2.3.1 Diagrama de Casos de Uso](./Modelagem/Organizacional/CasosDeUso.md)
       - [2.3.2 Diagrama de Pacotes](./Modelagem/Organizacional/Pacotes.md)
