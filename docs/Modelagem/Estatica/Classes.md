@@ -126,6 +126,20 @@ Essa padronização na representação é fundamental para garantir a clareza e 
 
 ## Diagrama de Classe do Planetário Virtual
 
+Para a elaboração deste artefato, foram realizadas duas reuniões online com os cinco integrantes responsáveis. As atas e gravações dessas reuniões estão documentadas no projeto: [Ata - Início do Diagrama de Classes](Modelagem/Extra/Atas/ata2.md) e [Ata - Finalização do Diagrama de Classes](Modelagem/Extra/Atas/ata3.md).
+
+Inicialmente, surgiu uma dúvida sobre o que exatamente representar no diagrama, já que seu escopo pode ser bastante amplo. A principal questão era se o diagrama deveria abranger todo o sistema (incluindo artefatos da interface) ou apenas o domínio, ou seja, as entidades persistentes no sistema. Após discussão em grupo e alinhamento com a professora, decidiu-se por representar somente o domínio. Com base na [Baseline de Requisitos](https://unbarqdsw2025-1-turma02.github.io/2025.1-T02-_G7_PlanetarioVirtual_Entrega_01/#/./Base/Elicitacao/1.6.3RequisitosElicitados), três classes foram prontamente identificadas: `Usuário`, `Postagem` e `Comentário`.
+
+O grupo optou por representar todos os métodos das classes, incluindo os métodos _get_ e _set_, que normalmente são abstraídos em diagramas mais simplificados. Uma dúvida recorrente foi quanto à inclusão de certos métodos, como o de exclusão, que em uma visão mais técnica poderiam estar associados a controladores ou casos de uso, e não diretamente à classe. No entanto, o grupo entendeu que, neste contexto, o foco do diagrama não está na implementação exata em código, mas sim na definição clara das responsabilidades de cada entidade dentro do sistema.
+
+Partindo para os relacionamentos, inicialmente todos foram modelados como associações. No entanto, com o aprofundamento na documentação e a definição de decisões arquiteturais, estabeleceu-se que, ao excluir um usuário, todas as suas postagens e comentários também seriam removidos. Por outro lado, os _likes_ e _dislikes_ permanecem registrados — ou seja, o número de curtidas de uma publicação não diminui se um usuário que a curtiu apagar sua conta.
+
+Da mesma forma, definiu-se que, ao excluir uma postagem, todos os seus comentários também seriam excluídos. Diante dessas decisões, as relações entre o usuário e suas postagens e comentários passaram a ser representadas como **composições**, por refletirem diretamente essa dependência de existência. Já as relações de curtir e não curtir continuaram sendo representadas como **associações**, pois não implicam em uma dependência de ciclo de vida entre as entidades envolvidas.
+
+O **Diagrama de Classes** elaborado após todas as decisões tomadas pode ser visualizado na **Figura 1** abaixo, e sua descrição está detalhada na **Especificação estendida**.
+
+---
+
 <font size="3"><p style="text-align: center"><b>Figura 1:</b> Diagrama de Classe</p></font>
 <center>
 
@@ -133,7 +147,9 @@ Essa padronização na representação é fundamental para garantir a clareza e 
 
 </center>
 
-<font size="3"><p style="text-align: center"><b>Autores</b>: [João Pedro](https://github.com/JoaoPedrooSS), [Rafael Pereira](https://github.com/rafgpereira), [Milena Rocha](https://github.com/milenafrocha), [Manoel Moura](https://github.com/manoelmoura) e [Raphaela Guimarães](https://github.com/raphaiela) 2025.</p></font>
+<font size="3"><p style="text-align: center"><b>Autores</b>: [João Pedro](https://github.com/JoaoPedrooSS), [Rafael Pereira](https://github.com/rafgpereira), [Milena Rocha](https://github.com/milenafrocha), [Manoel Moura](https://github.com/manoelmoura) e [Raphaela Guimarães](https://github.com/raphaiela), 2025.</p></font>
+
+---
 
 ### Especificação estendida do Diagrama de Classe 
 
@@ -205,5 +221,5 @@ Essa padronização na representação é fundamental para garantir a clareza e 
 | 1.2    | 01/05/2025 | Adição da foto do diagrama | [Milena Rocha](https://github.com/milenafrocha)          | [Rafael Pereira](https://github.com/rafgpereira)  |
 | 1.3    | 05/05/2025 | Ajustes de hiperlinks e da foto do diagrama | [Milena Rocha](https://github.com/milenafrocha)          | [Rafael Pereira](https://github.com/rafgpereira)  |
 | 1.4    | 05/05/2025 | Refatoração conjunta |[João Pedro](https://github.com/JoaoPedrooSS),[Rafael Pereira](https://github.com/rafgpereira),[Milena Rocha](https://github.com/milenafrocha),[Manoel Moura](https://github.com/manoelmoura)e [Raphaela Guimarães](https://github.com/raphaiela) | [Rafael Pereira](https://github.com/rafgpereira)  |
-
+| 1.5    | 07/05/2025 | Adição da descrição da elaboração do diagrama, com senso crítico | [Rafael Pereira](https://github.com/rafgpereira)  | [Milena Rocha](https://github.com/milenafrocha)          |
 
