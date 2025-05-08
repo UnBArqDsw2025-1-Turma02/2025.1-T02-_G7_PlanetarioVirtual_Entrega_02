@@ -93,4 +93,4 @@ _Reunião encerrada com a finalização do diagrama de componentes e diagrama de
 
 | Versão | Data       | Descrição                                      | Autor               | Revisor            |
 |--------|------------|------------------------------------------------|---------------------|--------------------|
-| 1.0    | 08/05/2025 | Criação do documento e tabelas, upload do vídeo e padronização | [Leticia Torres](https://github.com/leticiatmartins)   |  |
+| 1.0    | 08/05/2025 | Criação do documento e tabelas, upload do vídeo e padronização | [Leticia Torres](https://github.com/leticiatmartins)   | [Rafael Pereira](https://github.com/rafgpereira) |
