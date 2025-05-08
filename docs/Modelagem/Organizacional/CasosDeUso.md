@@ -93,6 +93,18 @@ O relacionamento de extensão é usado quando um comportamento opcional pode ser
 
 ## Diagrama de Casos de Uso
 
+Esse diagrama, por ser mais simples, foi desenvolvido em apenas uma reunião online com os participantes. A ata e a gravação da reunião podem ser acessadas aqui: [Ata - Casos de Uso](Modelagem/Extra/Atas/ata5.md). A ferramenta utilizada para sua elaboração foi o Lucidchart.
+
+Inicialmente, para a modelagem, foi analisado o domínio do sistema por meio do [Diagrama de Classes](Modelage/Estatica/Classes.md), a partir do qual foram extraídas as operações relacionadas às três classes principais: `Usuário`, `Postagem` e `Comentário`incluindo seus respectivos CRUDs e demais operações. No entanto, ao contrário do [Diagrama de Classes](Modelage/Estatica/Classes.md), esse diagrama de casos de uso permite abordar um escopo mais completo da aplicação, incluindo as funcionalidades exibidas no frontend. Para ampliar os casos de uso com base nesse escopo, foi consultada a [Baseline de Requisitos](https://unbarqdsw2025-1-turma02.github.io/2025.1-T02-_G7_PlanetarioVirtual_Entrega_01/#/./Base/Elicitacao/1.6.3RequisitosElicitados) do projeto, permitindo assim a inclusão de casos que extrapolam o modelo de domínio. A partir dessa análise, também foi identificado um novo ator: o **administrador**, cuja presença é fundamental para a moderação de sistemas de interação pública, como o Planetário Virtual, a fim de evitar interações perigosas ou impróprias.
+
+Além disso, houve uma discussão sobre os relacionamentos `<<include>>` e os `<<extend>>`. Foi levantado o questionamento de que a maioria dos casos de uso dependeria de outros, como o login, sendo então modelados como extensões. No entanto, o grupo optou por não seguir essa abordagem, pois o diagrama se tornaria excessivamente complexo e confuso, contrariando seu objetivo principal: ser simples e de fácil compreensão. Afinal, ao visualizar o sistema como um fluxo contínuo, percebe-se que nenhum elemento existe de forma isolada — todos dependem de pré-condições — e modelar todas essas dependências seria exaustivo e pouco didático.
+
+Por fim, baseando-se na orientação de Martin Fowler em seu livro _UML Essencial_<sup>[1](#ref1)</sup>, na página 107, optou-se por não utilizar o relacionamento`<<extend>>`:
+
+>
+> A UML inclui outros relacionamentos entre os casos de uso, além da inclusão simples, como «extend». Sugiro que você os ignore. Tenho visto muitas situações em que as equipes podem ficar terrivelmente atrasadas ao usar diferentes relacionamentos de caso de uso e muita energia é desperdiçada. Em vez disso, concentre-se na descrição textual de um caso de uso; é aí que reside o valor real da técnica.
+>
+
 <font size="3"><p style="text-align: center"><b>Figura 6:</b> Diagrama de Casos de uso</p></font>
 <center>
 
@@ -120,3 +132,4 @@ O relacionamento de extensão é usado quando um comportamento opcional pode ser
 | Versão | Data       | Descrição                                      | Autor               | Revisor            |
 |--------|------------|------------------------------------------------|---------------------|--------------------|
 | 1.0    | 07/05/2025 | Criação do documento com divisões a serem preenchidas conforme o padrão | [João Pedro](https://github.com/JoaoPedrooSS) | [Rafael Pereira](https://github.com/rafgpereira) |
+| 1.1    | 07/05/2025 | Adição do senso crítico do desenvolvimento |[Rafael Pereira](https://github.com/rafgpereira) | [João Pedro](https://github.com/JoaoPedrooSS) |                                                                                                                         |
