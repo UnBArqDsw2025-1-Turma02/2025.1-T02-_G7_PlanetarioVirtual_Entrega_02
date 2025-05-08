@@ -122,4 +122,15 @@ A **Figura 3** detalha a estrutura de Diagrama de Pacotes do Frontend
 
 - Components usa Assets
 
+### Especificação Estendida – Diagrama 3: Pacotes do Frontend
+
+| Elemento                 | Descrição                                                                                                                                  |
+|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| **Objetivo**             | Representar a organização modular da camada de frontend, demonstrando as dependências entre seus principais componentes.                  |
+| **Escopo**               | Interface do usuário (camada de frontend) da aplicação Planetário Virtual.                                                                |
+| **Pacotes Representados**| `Pages`, `Components`, `Services`, `Assets`, `Styles`                                                                                     |
+| **Descrição Detalhada**  | As relações entre os pacotes estão organizadas da seguinte forma:<br>• `Pages` importa `Components`, `Services` e `Assets`.<br>• `Components` usa `Styles` para estilização e `Assets` para recursos visuais.<br>• `Services` fornece acesso a dados e lógica de integração para `Pages`. |
+| **Justificativa Arquitetural** | A separação dos pacotes melhora a reutilização de componentes e a organização do código. O uso de `Pages` como entrada principal da aplicação reflete práticas comuns em frameworks modernos como React e Next.js. |
+| **Ferramenta Utilizada** | Lucidchart                                                                                                                                 |
+| **Autores**              | Carlos Paz, João Lucas, Letícia Martins, Taynara Gabrielle e Antônio José                                                                 |
 
