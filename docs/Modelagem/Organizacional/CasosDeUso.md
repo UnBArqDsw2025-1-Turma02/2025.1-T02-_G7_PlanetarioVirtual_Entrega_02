@@ -519,7 +519,69 @@ Abaixo, as tabelas para cada caso de uso identificado.
 
 ---
 
-<!-- Manoel, adiciona aqui o seu documento, e adiciona suas alterações no histórico de versões -->
+<details>
+<summary><b>Excluir Conta de Outro Usuário</b></summary>
+
+<center>
+
+| Campo                  | Descrição                                                                                                                                                 |
+| ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nome**               | Excluir Conta de Outro Usuário                                                                                                                            |
+| **Ator Principal**     | Administrador                                                                                                                                             |
+| **Atores Secundários** | Nenhum                                                                                                                                                    |
+| **Pré-condições**      | Administrador autenticado                                                                                                                                 |
+| **Pós-condições**      | Conta e dados do usuário são removidos                                                                                                                    |
+| **Fluxo Principal**    | 1. O administrador seleciona um usuário.<br>2. O sistema solicita confirmação.<br>3. O administrador confirma.<br>4. O sistema exclui a conta e os dados. |
+| **Fluxo Alternativo**  | 4a. Cancelamento:<br>  1. O sistema aborta a exclusão.                                                                                                    |
+| **Regras de Negócio**  | - Apenas administradores podem executar a ação.                                                                                                           |
+
+</center>
+</details>
+
+---
+
+<details>
+<summary><b>Excluir Postagem de Outro Usuário</b></summary>
+
+<center>
+
+| Campo                  | Descrição                                                                                                                |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| **Nome**               | Excluir Postagem de Outro Usuário                                                                                        |
+| **Ator Principal**     | Administrador                                                                                                            |
+| **Atores Secundários** | Nenhum                                                                                                                   |
+| **Pré-condições**      | Administrador autenticado                                                                                                |
+| **Pós-condições**      | Postagem é removida                                                                                                      |
+| **Fluxo Principal**    | 1. O administrador acessa a postagem.<br>2. Seleciona a opção de exclusão.<br>3. O sistema confirma e exclui a postagem. |
+| **Fluxo Alternativo**  | -                                                                                                                        |
+| **Regras de Negócio**  | - Ação só pode ser feita por administradores.                                                                            |
+
+</center>
+</details>
+
+---
+
+<details>
+<summary><b>Excluir Comentário de Outro Usuário</b></summary>
+
+<center>
+
+| Campo                  | Descrição                                                                                                       |
+| ---------------------- | --------------------------------------------------------------------------------------------------------------- |
+| **Nome**               | Excluir Comentário de Outro Usuário                                                                             |
+| **Ator Principal**     | Administrador                                                                                                   |
+| **Atores Secundários** | Nenhum                                                                                                          |
+| **Pré-condições**      | Administrador autenticado                                                                                       |
+| **Pós-condições**      | Comentário removido do sistema                                                                                  |
+| **Fluxo Principal**    | 1. O administrador localiza o comentário.<br>2. Clica na opção de excluir.<br>3. O sistema exclui o comentário. |
+| **Fluxo Alternativo**  | -                                                                                                               |
+| **Regras de Negócio**  | - A exclusão deve ser registrada para auditoria.                                                                |
+
+
+</center>
+</details>
+
+---
 
 
 ## Referências Bibliográficas
@@ -541,3 +603,4 @@ Abaixo, as tabelas para cada caso de uso identificado.
 | 1.0    | 07/05/2025 | Criação do documento com divisões a serem preenchidas conforme o padrão | [João Pedro](https://github.com/JoaoPedrooSS) | [Rafael Pereira](https://github.com/rafgpereira) |
 | 1.1    | 07/05/2025 | Adição do senso crítico do desenvolvimento |[Rafael Pereira](https://github.com/rafgpereira) | [João Pedro](https://github.com/JoaoPedrooSS) |                                                                                                                         |
 | 1.2    | 08/05/2025 | Adição da especificação dos casos de uso do usuário |[Rafael Pereira](https://github.com/rafgpereira) | [João Pedro](https://github.com/JoaoPedrooSS) |                                                                                                                         |
+| 1.3    | 08/05/2025 | Adição dos casos de uso do administrador |[Manoel Moura](https://github.com/manoelmoura) | [Rafael Pereira](https://github.com/rafgpereira) |                                                                                                                         |
