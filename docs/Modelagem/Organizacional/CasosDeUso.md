@@ -105,6 +105,8 @@ Por fim, baseando-se na orientação de Martin Fowler em seu livro _UML Essencia
 > A UML inclui outros relacionamentos entre os casos de uso, além da inclusão simples, como «extend». Sugiro que você os ignore. Tenho visto muitas situações em que as equipes podem ficar terrivelmente atrasadas ao usar diferentes relacionamentos de caso de uso e muita energia é desperdiçada. Em vez disso, concentre-se na descrição textual de um caso de uso; é aí que reside o valor real da técnica.
 >
 
+<a id="diagrama"></a>
+
 <font size="3"><p style="text-align: center"><b>Figura 6:</b> Diagrama de Casos de uso</p></font>
 <center>
 
@@ -532,7 +534,7 @@ Abaixo, as tabelas para cada caso de uso identificado.
 >
 >4. <a id="ref4"></a>  SOMMERVILLE, Ian. **Engenharia de Software**. 10. ed. São Paulo: Pearson, 2019.
  
-
+<a id="historico"></a>
 
 ## Histórico de Versões
 
