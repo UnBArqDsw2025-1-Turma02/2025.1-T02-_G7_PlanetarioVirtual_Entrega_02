@@ -105,6 +105,8 @@ Por fim, baseando-se na orientação de Martin Fowler em seu livro _UML Essencia
 > A UML inclui outros relacionamentos entre os casos de uso, além da inclusão simples, como «extend». Sugiro que você os ignore. Tenho visto muitas situações em que as equipes podem ficar terrivelmente atrasadas ao usar diferentes relacionamentos de caso de uso e muita energia é desperdiçada. Em vez disso, concentre-se na descrição textual de um caso de uso; é aí que reside o valor real da técnica.
 >
 
+<a id="diagrama"></a>
+
 <font size="3"><p style="text-align: center"><b>Figura 6:</b> Diagrama de Casos de uso</p></font>
 <center>
 
@@ -594,7 +596,7 @@ Abaixo, as tabelas para cada caso de uso identificado.
 >
 >4. <a id="ref4"></a>  SOMMERVILLE, Ian. **Engenharia de Software**. 10. ed. São Paulo: Pearson, 2019.
  
-
+<a id="historico"></a>
 
 ## Histórico de Versões
 
@@ -603,4 +605,4 @@ Abaixo, as tabelas para cada caso de uso identificado.
 | 1.0    | 07/05/2025 | Criação do documento com divisões a serem preenchidas conforme o padrão | [João Pedro](https://github.com/JoaoPedrooSS) | [Rafael Pereira](https://github.com/rafgpereira) |
 | 1.1    | 07/05/2025 | Adição do senso crítico do desenvolvimento |[Rafael Pereira](https://github.com/rafgpereira) | [João Pedro](https://github.com/JoaoPedrooSS) |                                                                                                                         |
 | 1.2    | 08/05/2025 | Adição da especificação dos casos de uso do usuário |[Rafael Pereira](https://github.com/rafgpereira) | [João Pedro](https://github.com/JoaoPedrooSS) |                                                                                                                         |
-| 1.3    | 08/05/2025 | Adição dos casos de uso do administrador |[Manoel Moura](https://github.com/manoelmoura) | [Rafael Pereira](https://github.com/rafgpereira) |                                                                                                                         |
+| 1.3    | 08/05/2025 | Adição dos casos de uso do administrador |[Manoel Moura](https://github.com/manoelmoura) | [Rafael Pereira](https://github.com/rafgpereira) |
