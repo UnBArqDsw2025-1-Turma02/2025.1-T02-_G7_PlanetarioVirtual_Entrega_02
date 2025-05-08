@@ -138,6 +138,7 @@ Da mesma forma, definiu-se que, ao excluir uma postagem, todos os seus comentár
 
 O **Diagrama de Classes** elaborado após todas as decisões tomadas pode ser visualizado na **Figura 1** abaixo, e sua descrição está detalhada na **Especificação estendida**.
 
+<a id="diagrama"></a>
 ---
 
 <font size="3"><p style="text-align: center"><b>Figura 1:</b> Diagrama de Classe</p></font>
@@ -208,6 +209,7 @@ O **Diagrama de Classes** elaborado após todas as decisões tomadas pode ser vi
 > 4. <a id="ref4"></a> IBM. **Relacionamentos em diagramas de classes**. IBM Documentation, 2008. Disponível em: [https://www.ibm.com/docs/pt-br/rsas/7.5.0?topic=diagrams-relationships-in-class](https://www.ibm.com/docs/pt-br/rsas/7.5.0?topic=diagrams-relationships-in-class). Acesso em: 7 maio 2025.
  
 
+<a id="historico"></a>
 
 ## Histórico de Versões
 
