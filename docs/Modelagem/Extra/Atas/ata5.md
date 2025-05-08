@@ -7,6 +7,7 @@
 
 * João Pedro Silva Sousa
 * Raphaela Guimarães de Araújo dos Santos
+- Manoel Castro Moura Filho
 * Rafael Gomes Pereira
 * Milena Fernandes Rocha
 
