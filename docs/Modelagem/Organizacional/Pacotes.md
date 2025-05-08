@@ -140,4 +140,5 @@ A **Figura 3** detalha a estrutura de Diagrama de Pacotes do Frontend
 >
 >2. <a id="ref2"></a> Visual Paradigm. **What is Package Diagram?** Disponível em: https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-package-diagram/. Acesso em: 8 mai. 2025.
 >
-
+>3. <a id="ref3"></a> Lucidchart. **Diagrama de Pacotes UML**. Disponível em: https://www.lucidchart.com/pages/pt/diagrama-de-pacotes-uml. Acesso em: 8 mai. 2025.
+>
