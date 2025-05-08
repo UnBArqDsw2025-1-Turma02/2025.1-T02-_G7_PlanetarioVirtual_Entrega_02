@@ -56,3 +56,45 @@ A **figura 1** representa a visão geral do sistema, dividido em três pacotes p
 
 
 ---
+
+### Diagrama 2: Diagrama de Pacotes do Backend
+
+A **figura 2** detalha a estrutura de Diagrama de Pacotes do Backend
+
+<font size="3"><p style="text-align: center"><b>Figura 2:</b> Diagrama de Pacotes do Backend</p></font>
+
+<center>
+
+![Visão Geral do Sistema](./assets/backendPacotes.png)
+
+</center>
+
+<font size="3"><p style="text-align: center"><b>Autores</b>: [Carlos Paz](https://github.com/dudupaz), [João Lucas](https://github.com/jlucasiqueira), [Letícia Martins](https://github.com/leticiatmartins), [Taynara Gabrielle](https://github.com/taybalau) e [Antônio José](https://github.com/antonioleaojr), 2025.</p></font>
+
+- Controllers usa Services
+
+- Services usa Repositories
+
+- Services usa Utils
+
+- Models e Repositories tem um relacionamento bidirecional
+
+- Models é usado por Services
+
+- Repositories acessa a API da NASA
+
+### Especificação Estendida – Diagrama 2: Pacotes do Backend
+
+| Elemento                 | Descrição                                                                                                                                  |
+|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| **Objetivo**             | Detalhar a arquitetura interna da camada de backend do Planetário Virtual, destacando as dependências entre seus módulos.                 |
+| **Escopo**               | Camada de backend do sistema.                                                                                                              |
+| **Pacotes Representados**| `Controllers`, `Services`, `Repositories`, `Models`, `Utils`                                                                              |
+| **Descrição Detalhada**  | O diagrama evidencia as seguintes relações entre pacotes:<br>• `Controllers` dependem de `Services`.<br>• `Services` utilizam tanto `Repositories` quanto `Utils` para aplicar a lógica de negócio.<br>• `Repositories` acessam diretamente a API da NASA.<br>• `Models` possuem relação bidirecional com `Repositories` e são também utilizados por `Services`. |
+| **Justificativa Arquitetural** | O design segue princípios de separação de responsabilidades e desacoplamento entre as camadas. Permite alta coesão dentro dos pacotes e baixo acoplamento entre eles, aderindo aos princípios da Clean Architecture. |
+| **Ferramenta Utilizada** | Lucidchart                                                                                                                                 |
+| **Autores**              | Carlos Paz, João Lucas, Letícia Martins, Taynara Gabrielle e Antônio José                                                                 |
+
+
+---
+
