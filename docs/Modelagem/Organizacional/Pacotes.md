@@ -134,3 +134,10 @@ A **Figura 3** detalha a estrutura de Diagrama de Pacotes do Frontend
 | **Ferramenta Utilizada** | Lucidchart                                                                                                                                 |
 | **Autores**              | Carlos Paz, João Lucas, Letícia Martins, Taynara Gabrielle e Antônio José                                                                 |
 
+## Referências Bibliográficas
+
+>1. <a id="ref1"></a> GitMind. **Diagrama de pacotes**. Disponível em: https://gitmind.com/pt/diagrama-de-pacotes. Acesso em: 8 mai. 2025.
+>
+>2. <a id="ref2"></a> Visual Paradigm. **What is Package Diagram?** Disponível em: https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-package-diagram/. Acesso em: 8 mai. 2025.
+>
+
