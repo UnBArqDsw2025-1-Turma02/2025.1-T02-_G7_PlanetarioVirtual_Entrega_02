@@ -17,6 +17,9 @@ Diagramas de atividade oferecem uma série de benefícios para os usuários. Con
 - Modelar elementos de arquitetura de software, como método, função e operação. 
 
 ## Metodologia
+
+Cinco membros foram responsáveis pela elaboração dos diagramas de atividade, desenvolvidos no Lucidchart. 
+
 Para criar um diagrama de atividade, é necessário um conjunto de símbolos especiais, incluindo aqueles para dar partida, encerrar, fundir ou receber etapas no fluxo, a tabela abaixo apresenta os elementos da UML utilizados nos diagramas de atividade, seu símbolo, seu nome e a descrição <sup>[2](#ref2)</sup>. 
 
 | Símbolo                            | Nome                   | Descrição                                                                                                                                                                    |
@@ -39,7 +42,7 @@ Para criar um diagrama de atividade, é necessário um conjunto de símbolos esp
 
 ![Cadastro e Login de Usuário](assets\DiagramaAtividadeCadastroLogin.png)
 
-**Autores:** [Antônio Júnior](https://github.com/antonioleaojr)  e [Taynara Vitorino](https://github.com/taybalau), 2025.
+**Autores:** [Antônio Júnior](https://github.com/antonioleaojr), [Carlos Eduardo](https://github.com/dudupaz), [Letícia Torres](https://github.com/leticiatmartins), [João Pedro](https://github.com/JoaoPedrooSS) e [Taynara Vitorino](https://github.com/taybalau), 2025.
 </center>
 
 ### Uso do Fórum
@@ -48,7 +51,7 @@ Para criar um diagrama de atividade, é necessário um conjunto de símbolos esp
 
 ![Uso do Fórum](assets\DiagramaAtividadeUsoForum.png)
 
-**Autores:** [Antônio Júnior](https://github.com/antonioleaojr)  e [Taynara Vitorino](https://github.com/taybalau), 2025.
+**Autores:** [Antônio Júnior](https://github.com/antonioleaojr), [Carlos Eduardo](https://github.com/dudupaz), [Letícia Torres](https://github.com/leticiatmartins), [João Pedro](https://github.com/JoaoPedrooSS) e [Taynara Vitorino](https://github.com/taybalau), 2025.
 </center>
 
 ### Uso Geral do Site
@@ -57,7 +60,7 @@ Para criar um diagrama de atividade, é necessário um conjunto de símbolos esp
 
 ![Uso Geral do Site](assets\DiagramaAtividadeUsoGeral.png)
 
-**Autores:** [Antônio Júnior](https://github.com/antonioleaojr)  e [Taynara Vitorino](https://github.com/taybalau), 2025.
+**Autores:** [Antônio Júnior](https://github.com/antonioleaojr), [Carlos Eduardo](https://github.com/dudupaz), [Letícia Torres](https://github.com/leticiatmartins), [João Pedro](https://github.com/JoaoPedrooSS) e [Taynara Vitorino](https://github.com/taybalau), 2025.
 </center>
 
 ### Visualização do Sistema Solar
@@ -66,7 +69,7 @@ Para criar um diagrama de atividade, é necessário um conjunto de símbolos esp
 
 ![Uso Geral do Site](assets/DiagramaAtividadeSistemaSolar.png)
 
-**Autores:** [Antônio Júnior](https://github.com/antonioleaojr)  e [Taynara Vitorino](https://github.com/taybalau), 2025.
+**Autores:** [Antônio Júnior](https://github.com/antonioleaojr), [Carlos Eduardo](https://github.com/dudupaz), [Letícia Torres](https://github.com/leticiatmartins), [João Pedro](https://github.com/JoaoPedrooSS) e [Taynara Vitorino](https://github.com/taybalau), 2025.
 </center>
 
 ### Visualização da Foto do dia da NASA
@@ -75,7 +78,7 @@ Para criar um diagrama de atividade, é necessário um conjunto de símbolos esp
 
 ![Uso Geral do Site](assets/DiagramaAtividadeFotoDoDia.png)
 
-**Autores:** [Antônio Júnior](https://github.com/antonioleaojr)  e [Taynara Vitorino](https://github.com/taybalau), 2025.
+**Autores:** [Antônio Júnior](https://github.com/antonioleaojr), [Carlos Eduardo](https://github.com/dudupaz), [Letícia Torres](https://github.com/leticiatmartins), [João Pedro](https://github.com/JoaoPedrooSS) e [Taynara Vitorino](https://github.com/taybalau), 2025.
 </center>
 
 ## Referências Bibliográficas
