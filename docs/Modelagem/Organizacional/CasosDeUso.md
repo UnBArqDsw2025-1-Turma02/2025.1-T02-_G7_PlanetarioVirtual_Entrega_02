@@ -73,7 +73,7 @@ O relacionamento de inclusão é usado quando uma funcionalidade obrigatória de
 
 O relacionamento de extensão é usado quando um comportamento opcional pode ser adicionado a um caso de uso, dependendo de alguma condição. Ou seja, o caso de uso base pode ser estendido por outro caso de uso de forma condicional.
 
-**Para o caso de uso "Visualizar Dados" ser executado, o usuário deve primeiro passar pelo caso de uso "Login".**
+**Pgit ara o caso de uso "Visualizar Dados" ser executado, o usuário deve primeiro passar pelo caso de uso "Login".**
 
 <font size="3"><p style="text-align: center"><b>Figura 5:</b> Extend</p></font>
 <center>
