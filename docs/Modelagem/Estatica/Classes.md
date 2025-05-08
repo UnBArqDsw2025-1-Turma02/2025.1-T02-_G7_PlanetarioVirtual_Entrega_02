@@ -6,7 +6,7 @@ O Diagrama de Classes é um dos principais artefatos da UML (Unified Modeling La
 
 Este diagrama descreve a estrutura estática do sistema, representando os tipos de objetos que podem existir e como eles se relacionam. As classes são representações de entidades do mundo real e atuam como tipos personalizados que encapsulam dados (atributos) e comportamentos (métodos)<sup>[3](#ref3)</sup>. Visualmente, cada classe é representada como um retângulo dividido em três partes: nome da classe, atributos e métodos. As relações entre classes — como associação, herança, composição e dependência — são indicadas por linhas e setas com notações específicas <sup>[4](#ref4)</sup>.
 
-Além disso, os diagramas de classes servem como base para a implementação de sistemas em linguagens orientadas a objetos, e seu uso é essencial tanto na fase de análise quanto na de projeto. Em projetos grandes, as classes são organizadas em pacotes, facilitando a compreensão e manutenção do sistema <sup>[5](#ref5)</sup>. Como ferramenta de modelagem, o Diagrama de Classes contribui diretamente para a comunicação entre os membros da equipe, para a documentação do projeto e para a construção de uma arquitetura de software sólida <sup>[6](#ref6)</sup>.
+Além disso, os diagramas de classes servem como base para a implementação de sistemas em linguagens orientadas a objetos, e seu uso é essencial tanto na fase de análise quanto na de projeto. Em projetos grandes, as classes são organizadas em pacotes, facilitando a compreensão e manutenção do sistema . Como ferramenta de modelagem, o Diagrama de Classes contribui diretamente para a comunicação entre os membros da equipe, para a documentação do projeto e para a construção de uma arquitetura de software sólida .
 
 ## Metodologia
 
@@ -138,6 +138,7 @@ Da mesma forma, definiu-se que, ao excluir uma postagem, todos os seus comentár
 
 O **Diagrama de Classes** elaborado após todas as decisões tomadas pode ser visualizado na **Figura 1** abaixo, e sua descrição está detalhada na **Especificação estendida**.
 
+<a id="diagrama"></a>
 ---
 
 <font size="3"><p style="text-align: center"><b>Figura 1:</b> Diagrama de Classe</p></font>
@@ -201,16 +202,14 @@ O **Diagrama de Classes** elaborado após todas as decisões tomadas pode ser vi
 
 >1. <a id="ref1"></a> FOWLER, Martin. *UML Essencial*. 3. ed. Rio de Janeiro: Alta Books, 2010.  
 >
->2. <a id="ref2"></a> Bóson Treinamentos. **Curso de UML - O que é um Diagrama de Classes**. YouTube, 2020. Disponível em: <https://www.youtube.com/watch?v=5jR3ZT9bz5M>. Acesso em: 1 maio 2025.  
+>2. <a id="ref2"></a> Bóson Treinamentos. **Curso de UML - O que é um Diagrama de Classes**. YouTube, 2020. Disponível em: <https://www.youtube.com/watch?v=JQSsqMCVi1k>. Acesso em: 1 maio 2025.  
 >
->3. <a id="ref3"></a> GUEDES, Gilleanes. **Diagrama de Pacotes - UML**. YouTube, 2020. Disponível em: <https://www.youtube.com/watch?v=HZJ2DLFOwyo>. Acesso em: 1 maio 2025.  
+> 3. <a id="ref3"></a> Engenharia de Software e UML. **Engenharia de Software e UML - Aula 01: Introdução à Engenharia de Software**. YouTube, 2020. Disponível em: [https://www.youtube.com/watch?v=rDidOn6KN9k](https://www.youtube.com/watch?v=rDidOn6KN9k). Acesso em: 7 maio 2025.
 >
->4. <a id="ref4"></a> OLIVEIRA, George. **Diagrama de Sequência**. YouTube, 2021. Disponível em: <https://www.youtube.com/watch?v=zgWY8LRJ-90>. Acesso em: 1 maio 2025.  
->
->5. <a id="ref5"></a> GUEDES, Gilleanes. **Engenharia de Software e UML**. Canal YouTube, várias datas.  
->
->6. <a id="ref6"></a> FOWLER, Martin. *UML Essencial*. Trechos adaptados do PDF: *UML-Essencial-Martin-Fowler.pdf*. 
+> 4. <a id="ref4"></a> IBM. **Relacionamentos em diagramas de classes**. IBM Documentation, 2008. Disponível em: [https://www.ibm.com/docs/pt-br/rsas/7.5.0?topic=diagrams-relationships-in-class](https://www.ibm.com/docs/pt-br/rsas/7.5.0?topic=diagrams-relationships-in-class). Acesso em: 7 maio 2025.
+ 
 
+<a id="historico"></a>
 
 ## Histórico de Versões
 
@@ -223,4 +222,5 @@ O **Diagrama de Classes** elaborado após todas as decisões tomadas pode ser vi
 | 1.4    | 05/05/2025 | Refatoração conjunta |[João Pedro](https://github.com/JoaoPedrooSS),[Rafael Pereira](https://github.com/rafgpereira),[Milena Rocha](https://github.com/milenafrocha),[Manoel Moura](https://github.com/manoelmoura)e [Raphaela Guimarães](https://github.com/raphaiela) | [Rafael Pereira](https://github.com/rafgpereira)  |
 | 1.5    | 07/05/2025 | Adição da descrição da elaboração do diagrama, com senso crítico | [Rafael Pereira](https://github.com/rafgpereira)  | [Milena Rocha](https://github.com/milenafrocha)          |
 | 1.6    | 07/05/2025 | Alterações na especificação estendida: melhor descrição dos métodos e relacionamentos | [Rafael Pereira](https://github.com/rafgpereira)  | [Milena Rocha](https://github.com/milenafrocha)          |
+| 1.7    | 07/05/2025 | Alterações nas referências e links | [Milena Rocha](https://github.com/milenafrocha) | [Rafael Pereira](https://github.com/rafgpereira) |
 

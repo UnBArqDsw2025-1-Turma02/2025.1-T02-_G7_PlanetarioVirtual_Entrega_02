@@ -1,3 +1,5 @@
+<a id="inicio"></a>
+
 # Ata da Reunião – Arquitetura e Desenho de Software
 
 **Data:** 30/04/2025  
