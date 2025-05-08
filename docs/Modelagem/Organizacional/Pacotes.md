@@ -98,3 +98,28 @@ A **figura 2** detalha a estrutura de Diagrama de Pacotes do Backend
 
 ---
 
+### Diagrama 3: Diagrama de Pacotes do Frontend
+
+A **Figura 3** detalha a estrutura de Diagrama de Pacotes do Frontend
+
+<font size="3"><p style="text-align: center"><b>Figura 3:</b> Diagrama de Pacotes do Frontend</p></font>
+
+<center>
+
+![Visão Geral do Sistema](./assets/frontendPacotes.png)
+
+</center>
+
+<font size="3"><p style="text-align: center"><b>Autores</b>: [Carlos Paz](https://github.com/dudupaz), [João Lucas](https://github.com/jlucasiqueira), [Letícia Martins](https://github.com/leticiatmartins), [Taynara Gabrielle](https://github.com/taybalau) e [Antônio José](https://github.com/antonioleaojr), 2025.</p></font>
+
+- Pages usa Components
+
+- Pages usa Services
+
+- Pages usa Assets
+
+- Components usa Styles
+
+- Components usa Assets
+
+
