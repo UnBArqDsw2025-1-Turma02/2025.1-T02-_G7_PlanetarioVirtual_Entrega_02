@@ -142,3 +142,15 @@ A **Figura 3** detalha a estrutura de Diagrama de Pacotes do Frontend
 >
 >3. <a id="ref3"></a> Lucidchart. **Diagrama de Pacotes UML**. Disponível em: https://www.lucidchart.com/pages/pt/diagrama-de-pacotes-uml. Acesso em: 8 mai. 2025.
 >
+
+## Histórico de Versões
+
+| Versão | Data       | Descrição | Autor           | Revisor                                           |
+|--------|------------|----------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|-------------------------------------------------------|
+| 1.0    | 08/05/2025 | Inclusão de introdução                                 | [Carlos Paz](https://github.com/dudupaz)                   | [João Lucas](https://github.com/jlucasiqueira)       |
+| 1.1    | 08/05/2025 | Adicionada metodologia  | [Carlos Paz](https://github.com/dudupaz)                   | [Letícia Martins](https://github.com/leticiatmartins)|
+| 1.2    | 08/05/2025 | Inclusão do Diagrama 1 com descrição estendida sobre a arquitetura geral do sistema                      | [Carlos Paz](https://github.com/dudupaz)                   | [Taynara Gabrielle](https://github.com/taybalau)     |
+| 1.3    | 08/05/2025 | Adição do Diagrama 2 com descrição estendida das dependências internas do backend                               | [Carlos Paz](https://github.com/dudupaz)                   | [Antônio José](https://github.com/antonioleaojr)     |
+| 1.4    | 08/05/2025 | Inserção do Diagrama 3 com descrição estendida das dependências e organização do frontend                            | [Carlos Paz](https://github.com/dudupaz)                   | [João Lucas](https://github.com/jlucasiqueira)       |
+| 1.5    | 08/05/2025 | Adição de referências     | [Carlos Paz](https://github.com/dudupaz)                   | [Taynara Gabrielle](https://github.com/taybalau)     |
+| 1.6    | 08/05/2025 | Atualização do histórico de versões                            | [Carlos Paz](https://github.com/dudupaz)                   | [Antônio José](https://github.com/antonioleaojr)     |
