@@ -19,3 +19,40 @@ Três diagramas criados:
 - Um diagrama focado no frontend.
 
 Durante o processo, a equipe utilizou ferramentas de modelagem UML para validar a estrutura e garantir a coerência com a implementação real do sistema. Todas as decisões foram discutidas em grupo, o que assegurou o alinhamento conceitual e técnico.
+
+## Diagramas de Pacotes Criados
+
+### Diagrama 1: Arquitetura em Alto Nível
+
+A **figura 1** representa a visão geral do sistema, dividido em três pacotes principais:
+
+<font size="3"><p style="text-align: center"><b>Figura 1:</b> Visão Geral do Sistema</p></font>
+
+<center>
+
+![Visão Geral do Sistema](./assets/visãogeralPacotes.png)
+
+</center>
+
+<font size="3"><p style="text-align: center"><b>Autores</b>: [Carlos Paz](https://github.com/dudupaz), [João Lucas](https://github.com/jlucasiqueira), [Letícia Martins](https://github.com/leticiatmartins), [Taynara Gabrielle](https://github.com/taybalau) e [Antônio José](https://github.com/antonioleaojr), 2025.</p></font>
+
+- Visão Geral: Backend se comunica com Frontend
+
+- Frontend: Responsável pela interface com o usuário e pela lógica de apresentação.
+
+- Backend: Contém as regras de negócio e a lógica de processamento do sistema.
+
+### Especificação Estendida – Diagrama 1: Arquitetura em Alto Nível
+
+| Elemento                 | Descrição                                                                                                                                  |
+|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| **Objetivo**             | Apresentar uma visão macro do sistema Planetário Virtual, destacando a separação entre frontend e backend e suas responsabilidades.        |
+| **Escopo**               | Toda a aplicação do Planetário Virtual, incluindo suas principais camadas lógicas.                                                         |
+| **Pacotes Representados**| `Frontend`, `Backend`, `Comunicação entre pacotes`                                                                                        |
+| **Descrição Detalhada**  | O diagrama demonstra a arquitetura em três grandes divisões: o pacote `Frontend`, o pacote `Backend` e a relação entre eles. O Frontend é responsável por toda a interação com o usuário e exibição de dados, enquanto o Backend centraliza as regras de negócio e acesso a dados externos (como a API da NASA). A seta entre os pacotes indica dependência unidirecional do Frontend para o Backend. |
+| **Justificativa Arquitetural** | Esta separação de responsabilidades segue o padrão MVC adaptado para aplicações web modernas, facilitando a manutenção, escalabilidade e testabilidade do sistema. |
+| **Ferramenta Utilizada** | Lucidchart                                                                                                                                 |
+| **Autores**              | Carlos Paz, João Lucas, Letícia Martins, Taynara Gabrielle e Antônio José                                                                 |
+
+
+---
