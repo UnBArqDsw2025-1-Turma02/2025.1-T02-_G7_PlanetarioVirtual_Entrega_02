@@ -60,7 +60,23 @@ Para criar um diagrama de atividade, é necessário um conjunto de símbolos esp
 **Autores:** [Antônio Júnior](https://github.com/antonioleaojr)  e [Taynara Vitorino](https://github.com/taybalau), 2025.
 </center>
 
-###
+### Visualização do Sistema Solar
+
+**Figura 4:** Diagrama de Atividade da visualização do Sistema Solar do Site<a id="figura"></a>
+
+![Uso Geral do Site](assets/DiagramaAtividadeSistemaSolar.png)
+
+**Autores:** [Antônio Júnior](https://github.com/antonioleaojr)  e [Taynara Vitorino](https://github.com/taybalau), 2025.
+</center>
+
+### Visualização da Foto do dia da NASA
+
+**Figura 5:** Diagrama de Atividade da visualização da Foto do Dia <a id="figura"></a>
+
+![Uso Geral do Site](assets/DiagramaAtividadeFotoDoDia.png)
+
+**Autores:** [Antônio Júnior](https://github.com/antonioleaojr)  e [Taynara Vitorino](https://github.com/taybalau), 2025.
+</center>
 
 ## Referências Bibliográficas
 
@@ -76,3 +92,4 @@ Para criar um diagrama de atividade, é necessário um conjunto de símbolos esp
 | 1.0 | 07/05/2025 | Criação do documento com divisões a serem preenchidas conforme o padrão.| [Antônio Júnior](https://github.com/antonioleaojr)  | [Taynara Vitorino](https://github.com/taybalau) |
 | 1.1 | 07/05/2025 | Adição da introdução e metodologia, com suas respectivas referências.| [Antônio Júnior](https://github.com/antonioleaojr)  | [Taynara Vitorino](https://github.com/taybalau) |
 | 1.2 | 08/05/2025 | Adição dos Diagramas de Atividade de uso geral do site, uso do forum e cadastro de usuário.| [Taynara Vitorino](https://github.com/taybalau)  | [Antônio Júnior](https://github.com/antonioleaojr)  |
+| 1.3 | 08/05/2025 | Adição dos Diagramas de Atividade de Visualização do Sistema solar e da Foto do Dia.| [Antônio Júnior](https://github.com/antonioleaojr)  | [Taynara Vitorino](https://github.com/taybalau) |
