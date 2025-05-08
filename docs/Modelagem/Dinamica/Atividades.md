@@ -31,6 +31,37 @@ Para criar um diagrama de atividade, é necessário um conjunto de símbolos esp
 
 ## Diagramas de Atividades do Planetário Virtual
 
+### Cadastro e Login de Usuário
+
+<center>
+
+**Figura 1:** Diagrama de Atividade de Cadastro e Login de Usuário <a id="figura"></a>
+
+![Cadastro e Login de Usuário](assets\DiagramaAtividadeCadastroLogin.png)
+
+**Autores:** [Antônio Júnior](https://github.com/antonioleaojr)  e [Taynara Vitorino](https://github.com/taybalau), 2025.
+</center>
+
+### Uso do Fórum
+
+**Figura 2:** Diagrama de Atividade de Uso do Fórum<a id="figura"></a>
+
+![Uso do Fórum](assets\DiagramaAtividadeUsoForum.png)
+
+**Autores:** [Antônio Júnior](https://github.com/antonioleaojr)  e [Taynara Vitorino](https://github.com/taybalau), 2025.
+</center>
+
+### Uso Geral do Site
+
+**Figura 3:** Diagrama de Atividade de Uso Geral do Site<a id="figura"></a>
+
+![Uso Geral do Site](assets\DiagramaAtividadeUsoGeral.png)
+
+**Autores:** [Antônio Júnior](https://github.com/antonioleaojr)  e [Taynara Vitorino](https://github.com/taybalau), 2025.
+</center>
+
+###
+
 ## Referências Bibliográficas
 
 >1. <a id="ref1"></a> Bóson Treinamentos. **O que é um Diagrama de Atividade UML - Introdução**. YouTube, 2022. Disponível em: <https://www.youtube.com/watch?v=_1vHj_j3zDY>. Acesso em: 7 maio 2025. 
@@ -43,4 +74,5 @@ Para criar um diagrama de atividade, é necessário um conjunto de símbolos esp
 | Versão | Data       | Descrição                                      | Autor               | Revisor            |
 |--------|------------|------------------------------------------------|---------------------|--------------------|
 | 1.0 | 07/05/2025 | Criação do documento com divisões a serem preenchidas conforme o padrão.| [Antônio Júnior](https://github.com/antonioleaojr)  | [Taynara Vitorino](https://github.com/taybalau) |
-| 1.0 | 07/05/2025 | Adição da introdução e metodologia, com suas respectivas referências.| [Antônio Júnior](https://github.com/antonioleaojr)  | [Taynara Vitorino](https://github.com/taybalau) |
+| 1.1 | 07/05/2025 | Adição da introdução e metodologia, com suas respectivas referências.| [Antônio Júnior](https://github.com/antonioleaojr)  | [Taynara Vitorino](https://github.com/taybalau) |
+| 1.2 | 08/05/2025 | Adição dos Diagramas de Atividade de uso geral do site, uso do forum e cadastro de usuário.| [Taynara Vitorino](https://github.com/taybalau)  | [Antônio Júnior](https://github.com/antonioleaojr)  |
