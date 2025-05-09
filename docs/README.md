@@ -35,7 +35,9 @@ A segunda entrega refere-se à elaboração da Modelagem UML do sistema, na qual
 ![Diagrama de Classe](assets/DiagramaDeClasse.png)
 
 ### Diagrama de Componentes
-![Rich Picture](assets/diagramaComponentes.jpg)
+
+![Diagrama de Componentes](assets/diagramaComponentes.jpg)
+
 
 ### Diagrama de Sequência
 ![Diagrama de Sequência](assets/DiagramaDeSequenciaMilena1.png)
@@ -63,3 +65,5 @@ A segunda entrega refere-se à elaboração da Modelagem UML do sistema, na qual
 |--------|------------|------------------------------------------|------------------|------------------|
 | 1.0    | 08/05/2025 | Criação inicial do documento             | [Milena Rocha](https://github.com/MilenaFRocha) | [Rafael Pereira](https://github.com/rafgpereira) |
 | 1.1    | 08/05/2025 | Finalização do documento             | [Milena Rocha](https://github.com/MilenaFRocha) | [Rafael Pereira](https://github.com/rafgpereira) |
+| 1.2    | 08/05/2025 | Adição do diagrama de Componentes             | [João Lucas](https://github.com/jlucasiqueira) | [Rafael Pereira](https://github.com/rafgpereira) |
+
