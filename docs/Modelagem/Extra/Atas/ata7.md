@@ -1,4 +1,4 @@
-# Ata da Reunião – Arquitetura e Desenho de Software
+# Ata da Reunião 7 – Arquitetura e Desenho de Software
 
 **Data:** 08/05/2025
 **Participantes Presentes:**

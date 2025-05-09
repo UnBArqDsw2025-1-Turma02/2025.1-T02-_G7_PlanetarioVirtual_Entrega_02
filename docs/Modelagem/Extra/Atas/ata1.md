@@ -1,4 +1,4 @@
-# Ata da Reunião – Arquitetura e Desenho de Software
+# Ata da Reunião 1 – Arquitetura e Desenho de Software
 
 **Data:** 26/04/2025  
 **Participantes Presentes:**
