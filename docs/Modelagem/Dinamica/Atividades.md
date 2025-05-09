@@ -42,7 +42,7 @@ Para criar um diagrama de atividade, é necessário um conjunto de símbolos esp
 
 ![Cadastro e Login de Usuário](assets\DiagramaAtividadeCadastroLogin.png)
 
-**Autores:** [Antônio Júnior](https://github.com/antonioleaojr), [Carlos Eduardo](https://github.com/dudupaz), [Letícia Torres](https://github.com/leticiatmartins), [João Pedro](https://github.com/JoaoPedrooSS) e [Taynara Vitorino](https://github.com/taybalau), 2025.
+**Autores:** [Antônio Júnior](https://github.com/antonioleaojr), [Carlos Eduardo](https://github.com/dudupaz), [Letícia Torres](https://github.com/leticiatmartins), [João Lucas](https://github.com/jlucasiqueira) e [Taynara Vitorino](https://github.com/taybalau), 2025.
 </center>
 
 ### Uso do Fórum
@@ -51,7 +51,7 @@ Para criar um diagrama de atividade, é necessário um conjunto de símbolos esp
 
 ![Uso do Fórum](assets\DiagramaAtividadeUsoForum.png)
 
-**Autores:** [Antônio Júnior](https://github.com/antonioleaojr), [Carlos Eduardo](https://github.com/dudupaz), [Letícia Torres](https://github.com/leticiatmartins), [João Pedro](https://github.com/JoaoPedrooSS) e [Taynara Vitorino](https://github.com/taybalau), 2025.
+**Autores:** [Antônio Júnior](https://github.com/antonioleaojr), [Carlos Eduardo](https://github.com/dudupaz), [Letícia Torres](https://github.com/leticiatmartins), [João Lucas](https://github.com/jlucasiqueira) e [Taynara Vitorino](https://github.com/taybalau), 2025.
 </center>
 
 ### Uso Geral do Site
@@ -60,7 +60,7 @@ Para criar um diagrama de atividade, é necessário um conjunto de símbolos esp
 
 ![Uso Geral do Site](assets\DiagramaAtividadeUsoGeral.png)
 
-**Autores:** [Antônio Júnior](https://github.com/antonioleaojr), [Carlos Eduardo](https://github.com/dudupaz), [Letícia Torres](https://github.com/leticiatmartins), [João Pedro](https://github.com/JoaoPedrooSS) e [Taynara Vitorino](https://github.com/taybalau), 2025.
+**Autores:** [Antônio Júnior](https://github.com/antonioleaojr), [Carlos Eduardo](https://github.com/dudupaz), [Letícia Torres](https://github.com/leticiatmartins), [João Lucas](https://github.com/jlucasiqueira) e [Taynara Vitorino](https://github.com/taybalau), 2025.
 </center>
 
 ### Visualização do Sistema Solar
@@ -69,7 +69,7 @@ Para criar um diagrama de atividade, é necessário um conjunto de símbolos esp
 
 ![Uso Geral do Site](assets/DiagramaAtividadeSistemaSolar.png)
 
-**Autores:** [Antônio Júnior](https://github.com/antonioleaojr), [Carlos Eduardo](https://github.com/dudupaz), [Letícia Torres](https://github.com/leticiatmartins), [João Pedro](https://github.com/JoaoPedrooSS) e [Taynara Vitorino](https://github.com/taybalau), 2025.
+**Autores:** [Antônio Júnior](https://github.com/antonioleaojr), [Carlos Eduardo](https://github.com/dudupaz), [Letícia Torres](https://github.com/leticiatmartins), [João Lucas](https://github.com/jlucasiqueira) e [Taynara Vitorino](https://github.com/taybalau), 2025.
 </center>
 
 ### Visualização da Foto do dia da NASA
@@ -78,7 +78,7 @@ Para criar um diagrama de atividade, é necessário um conjunto de símbolos esp
 
 ![Uso Geral do Site](assets/DiagramaAtividadeFotoDoDia.png)
 
-**Autores:** [Antônio Júnior](https://github.com/antonioleaojr), [Carlos Eduardo](https://github.com/dudupaz), [Letícia Torres](https://github.com/leticiatmartins), [João Pedro](https://github.com/JoaoPedrooSS) e [Taynara Vitorino](https://github.com/taybalau), 2025.
+**Autores:** [Antônio Júnior](https://github.com/antonioleaojr), [Carlos Eduardo](https://github.com/dudupaz), [Letícia Torres](https://github.com/leticiatmartins), [João Lucas](https://github.com/jlucasiqueira) e [Taynara Vitorino](https://github.com/taybalau), 2025.
 </center>
 
 ## Referências Bibliográficas
