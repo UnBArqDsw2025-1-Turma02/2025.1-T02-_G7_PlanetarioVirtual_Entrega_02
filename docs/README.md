@@ -32,22 +32,22 @@ A segunda entrega refere-se à elaboração da Modelagem UML do sistema, na qual
 ## Screenshots da Primeira Entrega
 
 ### Diagrama de Classe
-![Diagrama de Classe](assets/DiagramaDeClasse.jpg)
+![Diagrama de Classe](assets/DiagramaDeClasse.png)
 
 ### Diagrama de Componentes
 ![Rich Picture](assets/Rich_Picture.png)
 
 ### Diagrama de Sequência
-![Diagrama de Sequência](assets/prototipo.png)
+![Diagrama de Sequência](assets/DiagramaDeSequenciaMilena1.png)
 
 ### Diagrama de Atividades
 ![Causa Efeito](assets/DiagramaCausaEfeitoMilena.jpg)
 
 ### Diagrama de Caso de Uso
-![Diagrama de Caso de Uso](assets/scrum.jpg)
+![Diagrama de Caso de Uso](assets/DiagramaCasoUso.png)
 
 ### Diagrama de Pacotes
-![Diagrama de Caso de Uso](assets/scrum.jpg)
+![Diagrama de Caso de Uso](assets/visãogeralPacotes.png)
 
 ## Há algo a ser executado?
 
