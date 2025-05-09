@@ -25,3 +25,4 @@
       - [Ata 3 - 30/04](./Modelagem/Extra/Atas/ata3.md)
       - [Ata 4 - 05/05](./Modelagem/Extra/Atas/ata4.md)
       - [Ata 5 - 07/05](./Modelagem/Extra/Atas/ata5.md)
+      - [Ata 6 - 07/05](./Modelagem/Extra/Atas/ata6.md)
