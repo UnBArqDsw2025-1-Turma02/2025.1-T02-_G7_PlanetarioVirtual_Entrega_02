@@ -17,6 +17,7 @@
     - [2.4. Participações - Modelagem](./Modelagem/Participacoes/2.4.ParticipacoesModelagem.md)
     - [2.5. Iniciativas Extras - Modelagem](./Modelagem/Extra/2.5.IniciativasExtras.md)
       - [2.5.1 Heatmap](./Modelagem/Extra/2.5.1Heatmap.md)
+      - [2.5.2 Ferramentas](./Modelagem/Extra/2.5.2Ferramentas.md)
       - **Atas**
       - [Ata 1 - 26/04](./Modelagem/Extra/Atas/ata1.md)
       - [Ata 2 - 29/04](./Modelagem/Extra/Atas/ata2.md)
