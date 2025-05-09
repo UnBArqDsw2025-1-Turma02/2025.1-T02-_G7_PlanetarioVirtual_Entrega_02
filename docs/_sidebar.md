@@ -2,9 +2,6 @@
 
 - [Sobre o projeto](/)
 
-- [Código de conduta](/)
-
-- [Como contribuir](/)
 
 - **Modelagem**
   - [2. Desenho de Software (Modelagem)](./Modelagem/2.Modelagem.md)
