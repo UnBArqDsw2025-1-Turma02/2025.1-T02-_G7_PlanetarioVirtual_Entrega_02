@@ -2,29 +2,34 @@
 
 ## Introdução
 
-O Diagrama de Pacotes é um dos principais artefatos usado para representar a organização modular de um sistema, evidenciando suas dependências e agrupamentos lógicos. Fornecendo uma visão geral da arquitetura, facilitando a compreensão da estrutura do software e contribuindo para a separação de responsabilidades.
+O Diagrama de Pacotes é uma ferramenta essencial na documentação arquitetural de sistemas, oferecendo uma visão clara e estruturada da organização modular do software. Ele descreve como os diferentes módulos do sistema se agrupam logicamente e como se inter-relacionam, evidenciando as dependências entre os componentes<sup>[1](#ref1)</sup>. Esse diagrama facilita a compreensão da arquitetura do sistema, promovendo uma visão de alto nível da estrutura do software e permitindo uma melhor separação de responsabilidades entre as diversas partes do projeto<sup>[2](#ref2)</sup>. Além disso, o Diagrama de Pacotes se destaca pela sua capacidade de representar não apenas a organização dos módulos, mas também as dependências entre eles, o que é fundamental para o entendimento das interações entre diferentes partes do sistema<sup>[3](#ref3)</sup>.
 
-Para o Planetário Virtual, parte da equipe elaborou e revisou o Diagrama de Pacotes como parte da documentação arquitetural, visando mapear os módulos que compõem o sistema tanto no backend quanto no frontend. A modelagem foi realizada coletivamente por todos os membros do grupo, garantindo uma visão compartilhada sobre as responsabilidades de cada componente e sobre as conexões entre as diferentes camadas da aplicação.
+No contexto do desenvolvimento do **Planetário Virtual**, a equipe de desenvolvimento dedicou-se à elaboração e revisão do Diagrama de Pacotes como um dos componentes chave da documentação arquitetural. O objetivo desse diagrama é mapear de forma clara e objetiva todos os módulos que compõem o sistema, abrangendo tanto o backend quanto o frontend.
+
+Para garantir a qualidade e a consistência dessa modelagem, o trabalho foi realizado de forma colaborativa, com todos os membros do grupo contribuindo ativamente na definição dos pacotes e das interações entre eles. Essa abordagem garantiu uma visão compartilhada e alinhada sobre as responsabilidades de cada componente, além de proporcionar um entendimento comum sobre como as diferentes camadas da aplicação se conectam e interagem.
+
 
 ## Metodologia
 
-Para a construção dos diagramas de pacotes, o grupo seguiu uma abordagem colaborativa, identificando os domínios funcionais, agrupamendo das classes e arquivos e definindo os relacionamentos entre pacotes.
+A construção dos diagramas de pacotes seguiu uma abordagem colaborativa, com a o grupo identificando os domínios funcionais do sistema e definindo as responsabilidades de cada módulo.
 
-Três diagramas criados:
+A metodologia focou em três elementos principais:
 
-- Um diagrama de alto nível da arquitetura geral.
+ 1. **Identificação dos Domínios Funcionais:** O sistema foi dividido em pacotes representando os principais domínios de funcionalidade, como Frontend e Backend.
 
-- Um diagrama focado no backend.
+ 2. **Agrupamento de Classes e Arquivos:** Dentro de cada domínio, as classes e arquivos foram agrupados em pacotes que refletem a separação de responsabilidades, garantindo um baixo acoplamento e alta coesão.
 
-- Um diagrama focado no frontend.
+ 3. **Definição de Relacionamentos:** Foram estabelecidos os relacionamentos entre os pacotes, levando em consideração a direção das dependências e a comunicação entre as camadas da aplicação.
 
-Durante o processo, a equipe utilizou ferramentas de modelagem UML para validar a estrutura e garantir a coerência com a implementação real do sistema. Todas as decisões foram discutidas em grupo, o que assegurou o alinhamento conceitual e técnico.
+Ao longo do processo, utilizamos ferramentas de modelagem UML para validar a estrutura e garantir a coerência com a implementação real do sistema. As decisões foram discutidas em grupo, permitindo um alinhamento técnico e conceitual.
 
 ## Diagramas de Pacotes Criados
 
 ### Diagrama 1: Arquitetura em Alto Nível
 
-A **figura 1** representa a visão geral do sistema, dividido em três pacotes principais:
+A **figura 1** representa a visão geral do sistema, dividido em três pacotes principais. Foi criado para mostrar uma visão clara da separação entre frontend e backend, algo essencial para a arquitetura do Planetário Virtual. O objetivo era estabelecer uma estrutura modular, onde o frontend fosse responsável apenas pela interação com o usuário e pela exibição de dados, enquanto o backend cuidaria das regras de negócio e da comunicação com fontes externas, como a API da NASA. Essa separação é fundamental para garantir que o sistema seja fácil de manter e escalar no futuro.
+
+Um dos principais desafios foi garantir que a comunicação entre o frontend e o backend fosse clara e bem definida. A equipe teve que estabelecer como as dependências seriam tratadas, principalmente em relação à troca de dados entre essas camadas. Foi necessário definir os pontos de integração de forma precisa, para que cada parte do sistema soubesse como se comunicar corretamente com a outra.
 
 <font size="3"><p style="text-align: center"><b>Figura 1:</b> Visão Geral do Sistema</p></font>
 
@@ -59,7 +64,9 @@ A **figura 1** representa a visão geral do sistema, dividido em três pacotes p
 
 ### Diagrama 2: Diagrama de Pacotes do Backend
 
-A **figura 2** detalha a estrutura de Diagrama de Pacotes do Backend
+A **figura 2** detalha a estrutura de Diagrama de Pacotes do Backend, foi dividido em pacotes como Controllers, Services, Repositories, Models e Utils, a fim de garantir a modularidade e a separação das responsabilidades. Os Controllers gerenciam as requisições dos usuários e chamam os Services, que contêm a lógica de negócios. Repositories interagem com o banco de dados ou com a API externa, enquanto Models representam as entidades e Utils fornecem funcionalidades auxiliares.
+
+O maior desafio foi garantir que os Models e os Repositories tivessem uma relação eficiente e que o fluxo de dados entre essas camadas fosse bem controlado. A equipe precisou tomar cuidado para que a lógica de acesso aos dados fosse desacoplada da lógica de negócios e que as dependências entre os pacotes não se tornassem excessivas. Além disso, foi necessário ajustar as interações entre os pacotes para que o sistema fosse robusto e fácil de testar.
 
 <font size="3"><p style="text-align: center"><b>Figura 2:</b> Diagrama de Pacotes do Backend</p></font>
 
@@ -100,7 +107,9 @@ A **figura 2** detalha a estrutura de Diagrama de Pacotes do Backend
 
 ### Diagrama 3: Diagrama de Pacotes do Frontend
 
-A **Figura 3** detalha a estrutura de Diagrama de Pacotes do Frontend
+A **Figura 3** detalha a estrutura de Diagrama de Pacotes do Frontend, a estrutura foi organizada em pacotes como Pages, Components, Services, Assets e Styles. As Pages servem como a entrada principal da aplicação, interagindo com os Components, Services e Assets. Os Components são responsáveis pela construção da interface de usuário e utilizam Styles para a estilização.
+
+O principal desafio no frontend foi garantir que os Components fossem suficientemente reutilizáveis, e que as dependências com Pages e Services fossem bem definidas. A equipe teve que balancear a complexidade da interface com a necessidade de manter os componentes modulares e independentes, facilitando a manutenção e a escalabilidade do código. Outro desafio foi garantir que os Assets (como imagens e ícones) fossem organizados de maneira eficiente, para que o carregamento e a performance do sistema não fossem impactados.
 
 <font size="3"><p style="text-align: center"><b>Figura 3:</b> Diagrama de Pacotes do Frontend</p></font>
 
@@ -140,8 +149,10 @@ A **Figura 3** detalha a estrutura de Diagrama de Pacotes do Frontend
 >
 >2. <a id="ref2"></a> Visual Paradigm. **What is Package Diagram?** Disponível em: https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-package-diagram/. Acesso em: 8 mai. 2025.
 >
->3. <a id="ref3"></a> Lucidchart. **Diagrama de Pacotes UML**. Disponível em: https://www.lucidchart.com/pages/pt/diagrama-de-pacotes-uml. Acesso em: 8 mai. 2025.
+>3. <a id='ref2'></a> Oliveira, Diego. **Diagrama de Pacotes**. Disponível em: https://docentes.ifrn.edu.br/diegooliveira/disciplinas/pds/aula-14-diagrama-de-pacotes. Acesso em: 8 mai. 2025.
 >
+>4. <a id="ref3"></a> Lucidchart. **Diagrama de Pacotes UML**. Disponível em: https://www.lucidchart.com/pages/pt/diagrama-de-pacotes-uml. Acesso em: 8 mai. 2025.
+
 
 ## Histórico de Versões
 
