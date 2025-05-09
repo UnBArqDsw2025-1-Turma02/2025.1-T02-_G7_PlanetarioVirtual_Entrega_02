@@ -4,7 +4,7 @@
 
 O Diagrama de Pacotes é uma ferramenta essencial na documentação arquitetural de sistemas, oferecendo uma visão clara e estruturada da organização modular do software. Ele descreve como os diferentes módulos do sistema se agrupam logicamente e como se inter-relacionam, evidenciando as dependências entre os componentes<sup>[1](#ref1)</sup>. Esse diagrama facilita a compreensão da arquitetura do sistema, promovendo uma visão de alto nível da estrutura do software e permitindo uma melhor separação de responsabilidades entre as diversas partes do projeto<sup>[2](#ref2)</sup>. Além disso, o Diagrama de Pacotes se destaca pela sua capacidade de representar não apenas a organização dos módulos, mas também as dependências entre eles, o que é fundamental para o entendimento das interações entre diferentes partes do sistema<sup>[3](#ref3)</sup>.
 
-No contexto do desenvolvimento do Planetário Virtual, a equipe de desenvolvimento dedicou-se à elaboração e revisão do Diagrama de Pacotes como um dos componentes chave da documentação arquitetural. O objetivo desse diagrama é mapear de forma clara e objetiva todos os módulos que compõem o sistema, abrangendo tanto o backend quanto o frontend.
+No contexto do desenvolvimento do **Planetário Virtual**, a equipe de desenvolvimento dedicou-se à elaboração e revisão do Diagrama de Pacotes como um dos componentes chave da documentação arquitetural. O objetivo desse diagrama é mapear de forma clara e objetiva todos os módulos que compõem o sistema, abrangendo tanto o backend quanto o frontend.
 
 Para garantir a qualidade e a consistência dessa modelagem, o trabalho foi realizado de forma colaborativa, com todos os membros do grupo contribuindo ativamente na definição dos pacotes e das interações entre eles. Essa abordagem garantiu uma visão compartilhada e alinhada sobre as responsabilidades de cada componente, além de proporcionar um entendimento comum sobre como as diferentes camadas da aplicação se conectam e interagem.
 
@@ -15,11 +15,11 @@ A construção dos diagramas de pacotes seguiu uma abordagem colaborativa, com a
 
 A metodologia focou em três elementos principais:
 
-    1. **Identificação dos Domínios Funcionais:** O sistema foi dividido em pacotes representando os principais domínios de funcionalidade, como Frontend e Backend.
+ 1. **Identificação dos Domínios Funcionais:** O sistema foi dividido em pacotes representando os principais domínios de funcionalidade, como Frontend e Backend.
 
-    2. **Agrupamento de Classes e Arquivos:** Dentro de cada domínio, as classes e arquivos foram agrupados em pacotes que refletem a separação de responsabilidades, garantindo um baixo acoplamento e alta coesão.
+ 2. **Agrupamento de Classes e Arquivos:** Dentro de cada domínio, as classes e arquivos foram agrupados em pacotes que refletem a separação de responsabilidades, garantindo um baixo acoplamento e alta coesão.
 
-    3. **Definição de Relacionamentos:** Foram estabelecidos os relacionamentos entre os pacotes, levando em consideração a direção das dependências e a comunicação entre as camadas da aplicação.
+ 3. **Definição de Relacionamentos:** Foram estabelecidos os relacionamentos entre os pacotes, levando em consideração a direção das dependências e a comunicação entre as camadas da aplicação.
 
 Ao longo do processo, utilizamos ferramentas de modelagem UML para validar a estrutura e garantir a coerência com a implementação real do sistema. As decisões foram discutidas em grupo, permitindo um alinhamento técnico e conceitual.
 
