@@ -1,63 +1,64 @@
-## 🌠 Sobre o Projeto
+# 🌎 Planetário Virtual
 
-O **Planetário Virtual** é uma aplicação web interativa que oferece uma experiência imersiva de aprendizado e exploração do universo 🌍✨. A plataforma foi pensada para ser acessível e visualmente intuitiva, permitindo que os usuários:
+**Código da Disciplina**: FGA0208<br>
+**Número do Grupo**: 07<br>
+**Entrega**: 02<br>
 
-📸 Visualizem a **Imagem do Dia da NASA**<br>
-🪐 Acessem **informações sobre planetas e outros astros** do Sistema Solar através de uma interface interativa<br>
-💬 Compartilhem ideias e interajam em um **fórum de discussão astronômico**<br>
+## Alunos
 
-Tudo isso com o objetivo de promover o ensino de ciências de forma envolvente e dinâmica 🚀.
-
----
-
-## 📚 Contexto Acadêmico
-
-Este repositório reúne a documentação e os artefatos desenvolvidos na **Segunda Entrega** do projeto, produzido pelo **Grupo 07** para a disciplina de **Arquitetura e Desenho de Software**, ministrada pela professora **Milene Serrano** durante o **primeiro semestre de 2025** na **Universidade de Brasília (UnB)** 🎓.
-
-## 👥 Contribuidores
-
-<center>
-  <table style="width: 100%;">
-  <tr>
-    <td align="center"><a href="https://github.com/antonioleaojr"><img style="border-radius: 50%;" src="https://github.com/antonioleaojr.png" width="100px;" alt="Imagem de Antonio"/><br /><sub><b>Antônio José</b></sub></a></td>
-    <td align="center"><a href="https://github.com/dudupaz"><img style="border-radius: 50%;" src="https://github.com/dudupaz.png" width="100px;" alt="Imagem de Carlos"/><br /><sub><b>Carlos Eduardo</b></sub></a></td>
-    <td align="center"><a href="https://github.com/jlucasiqueira"><img style="border-radius: 50%;" src="https://github.com/jlucasiqueira.png" width="100px;" alt="Imagem de Joao Lucas"/><br /><sub><b>João Lucas</b></sub></a></td>
-    <td align="center"><a href="https://github.com/joaopedrooss"><img style="border-radius: 50%;" src="https://github.com/JoaoPedrooSS.png" width="100px;" alt="Imagem de Joao Pedro"/><br /><sub><b>João Pedro</b></sub></a></td>
-    <td align="center"><a href="https://github.com/leticiatmartins"><img style="border-radius: 50%;" src="https://github.com/leticiatmartins.png" width="100px;" alt="Imagem de Leticia"/><br /><sub><b>Leticia Martins</b></sub></a></td>
-    <td align="center"><a href="https://github.com/manoelmoura"><img style="border-radius: 50%;" src="https://github.com/manoelmoura.png" width="100px;" alt="Imagem de Manoel Moura"/><br /><sub><b>Manoel Moura</b></sub></a></td>
-    <td align="center"><a href="https://github.com/MilenaFRocha"><img style="border-radius: 50%;" src="https://github.com/MilenaFRocha.png" width="100px;" alt="Imagem de Milena"/><br /><sub><b>Milena Rocha</b></sub></a></td>
-    <td align="center"><a href="https://github.com/rafgpereira"><img style="border-radius: 50%;" src="https://github.com/rafgpereira.png" width="100px;" alt="Imagem de Rafael "/><br /><sub><b>Rafael Pereira</b></sub></a></td>
-    <td align="center"><a href="https://github.com/raphaiela"><img style="border-radius: 50%;" src="https://github.com/raphaiela.png" width="100px;" alt="Imagem de Raphaela"/><br /><sub><b>Raphaela Guimarães</b></sub></a></td>
-    <td align="center"><a href="https://github.com/taybalau"><img style="border-radius: 50%;" src="https://github.com/taybalau.png" width="100px;" alt="Imagem de Taynara"/><br /><sub><b>Taynara Gabrielle</b></sub></a></td>
+| Matrícula   | Aluno                                                                 | Imagem                                                                 |
+|-------------|-----------------------------------------------------------------------|------------------------------------------------------------------------|
+| 19/0102683  | [Antônio José Magalhães Leão Júnior](https://github.com/antonioleaojr)           | <img width="100" src="https://github.com/antonioleaojr.png" style="border-radius: 50px"/> |
+| 22/2022064  | [Carlos Eduardo de Sousa Paz](https://github.com/dudupaz)                        | <img width="100" src="https://github.com/dudupaz.png" style="border-radius: 50px"/>        |
+| 22/2025324  | [João Lucas Araújo Siqueira](https://github.com/jlucasiqueira)                   | <img width="100" src="https://github.com/jlucasiqueira.png" style="border-radius: 50px"/>  |
+| 22/2006258  | [João Pedro Silva Sousa](https://github.com/JoaoPedrooSS)                        | <img width="100" src="https://github.com/JoaoPedrooSS.png" style="border-radius: 50px"/>   |
+| 20/2016702  | [Letícia Torres Soares Martins](https://github.com/leticiatmartins)              | <img width="100" src="https://github.com/leticiatmartins.png" style="border-radius: 50px"/>|
+| 20/0023535  | [Manoel Castro Moura Filho](https://github.com/manoelmoura)                      | <img width="100" src="https://github.com/manoelmoura.png" style="border-radius: 50px"/>    |
+| 22/2022000  | [Milena Fernandes Rocha](https://github.com/MilenaFRocha)                        | <img width="100" src="https://github.com/MilenaFRocha.png" style="border-radius: 50px"/>   |
+| 22/2015248  | [Rafael Gomes Pereira](https://github.com/rafgpereira)                           | <img width="100" src="https://github.com/rafgpereira.png" style="border-radius: 50px"/>    |
+| 19/0116072  | [Raphaela Guimarães de Araújo dos Santos](https://github.com/raphaiela)          | <img width="100" src="https://github.com/raphaiela.png" style="border-radius: 50px"/>      |
+| 21/1030264  | [Taynara Gabrielle Vitorino](https://github.com/taybalau)                        | <img width="100" src="https://github.com/taybalau.png" style="border-radius: 50px"/>       |
 
 
-  </tr>
-</table>
-</center>
 
 
-## Tecnologia
+## Sobre 
+O Planetário Virtual é uma aplicação web interativa que visa proporcionar uma experiência imersiva de aprendizado e exploração do universo. Através de uma plataforma acessível e visualmente intuitiva, o sistema permite que usuários explorem corpos celestes, acompanhem eventos astronômicos e simulem fenômenos do espaço, promovendo educação científica de forma envolvente.
 
-A geração do site estático é realizada utilizando o [docsify](https://docsify.js.org/).
+Esta documentação tem como objetivo armazenar e descrever todos os artefatos produzidos e os resultados obtidos durante o desenvolvimento da primeira entrega do Grupo 07 da disciplina de Arquitetura e Desenho de Software, ministrada pela professora Milene Serrano no primeiro semestre letivo de 2025 na Universidade de Brasília (UnB).
 
-```shell
-"Docsify generates your documentation website on the fly. Unlike GitBook, it does not generate static html files. Instead, it smartly loads and parses your Markdown files and displays them as a website. To start using it, all you need to do is create an index.html and deploy it on GitHub Pages."
-```
+A segunda entrega refere-se à elaboração da Modelagem UML do sistema, na qual foram construídos diversos diagramas — como o diagrama de casos de uso, classes, sequência e atividades — que servem como base estrutural e conceitual para o desenvolvimento do projeto. Esses diagramas auxiliam na compreensão dos requisitos do sistema e na definição de sua arquitetura, garantindo maior consistência e alinhamento entre os membros da equipe durante as próximas etapas.
 
-### Instalando o docsify
+## Screenshots da Primeira Entrega
 
-Execute o comando:
+### Diagrama de Classe
+![Diagrama de Classe](assets/DiagramaDeClasse.png)
 
-```shell
-npm i docsify-cli -g
-```
+### Diagrama de Componentes
+![Rich Picture](assets/Rich_Picture.png)
 
-### Executando localmente
+### Diagrama de Sequência
+![Diagrama de Sequência](assets/DiagramaDeSequenciaMilena1.png)
 
-Para iniciar o site localmente, utilize o comando:
+### Diagrama de Atividades
+![Causa Efeito](assets/DiagramaCausaEfeitoMilena.jpg)
 
-```shell
-docsify serve ./docs
-```
+### Diagrama de Caso de Uso
+![Diagrama de Caso de Uso](assets/DiagramaCasoUso.png)
+
+### Diagrama de Pacotes
+![Diagrama de Caso de Uso](assets/visãogeralPacotes.png)
+
+## Há algo a ser executado?
+
+( ) SIM
+
+(X) NÃO
 
 
+
+### Histórico de Versão
+
+| Versão | Data       | Descrição                                | Autor            | Revisor          |
+|--------|------------|------------------------------------------|------------------|------------------|
+| 1.0    | 08/05/2025 | Criação inicial do documento             | [Milena Rocha](https://github.com/MilenaFRocha) | [Rafael Pereira](https://github.com/rafgpereira) |
