@@ -7,7 +7,7 @@
   - [2. Desenho de Software (Modelagem)](./Modelagem/2.Modelagem.md)
     - [2.1. Modelagem UML Estática](./Modelagem/Estatica/2.1.ModelagemEstatica.md)
       - [2.1.1 Diagrama de Classes](./Modelagem/Estatica/Classes.md)
-      - [2.1.2 Diagrama de Componentes ou Implantação](./Modelagem/Estatica/Decidir.md)
+      - [2.1.2 Diagrama de Componentes](./Modelagem/Estatica/Componentes.md)
     - [2.2. Modelagem UML Dinâmica](./Modelagem/Dinamica/2.2.ModelagemDinamica.md)
       - [2.2.1 Diagrama de Sequência](./Modelagem/Dinamica/Sequencia.md)
       - [2.2.2 Diagrama de Atividades](./Modelagem/Dinamica/Atividades.md)
