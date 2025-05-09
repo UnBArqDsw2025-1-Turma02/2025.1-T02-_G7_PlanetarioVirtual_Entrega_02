@@ -54,15 +54,192 @@ O grupo avaliou a especificação textual dos [Casos de Uso](/Modelagem/Organiza
 
 Abaixo podem ser visualizados os diagramas que foram desenvolvidos, seguidos por seus respectivos títulos e autores responsáveis.
 
-###
+---
+
+<details>
+<summary><b>Criar/Editar/Excluir Postagem e Comentário</b></summary>
+<center>
+<font size="3"><p style="text-align: center"><b>Tabela 1:</b> Criar/Editar/Excluir Postagem e Comentário </p></font>
+
+![Milena1](assets/DiagramaDeSequenciaMilena1.png)
+
+<font size="3"><p style="text-align: center"><b>Autor:</b> [Milena Rocha](https://github.com/milenafrocha), 2025. </p></font>
+
+</center>
+</details>
+
+---
+
+<details>
+<summary><b>Curtir/Descurtir Postagem e Comentário</b></summary>
+<center>
+<font size="3"><p style="text-align: center"><b>Tabela 2:</b> Curtir/Descurtir Postagem e Comentário </p></font>
+
+![Milena1](assets/DiagramaDeSequenciaMilena2.png)
+
+<font size="3"><p style="text-align: center"><b>Autor:</b> [Milena Rocha](https://github.com/milenafrocha), 2025. </p></font>
+
+</center>
+</details>
+
+---
+
+<details>
+<summary><b>Criar Conta</b></summary>
+<center>
+<font size="3"><p style="text-align: center"><b>Tabela 3:</b> Criar Conta </p></font>
+
+![Rafaela](assets/CriaConta.png)
+
+<font size="3"><p style="text-align: center"><b>Autor:</b> [Raphaela Guimarães](https://github.com/raphaiela), 2025. </p></font>
+
+</center>
+</details>
+
+---
+
+<details>
+<summary><b>Logar na Conta</b></summary>
+<center>
+<font size="3"><p style="text-align: center"><b>Tabela 4:</b> Logar na Conta </p></font>
+
+![Rafaela](assets/LogaConta.png)
+
+<font size="3"><p style="text-align: center"><b>Autor:</b> [Raphaela Guimarães](https://github.com/raphaiela), 2025. </p></font>
+
+</center>
+</details>
+
+---
+
+<details>
+<summary><b>Editar Perfil</b></summary>
+<center>
+<font size="3"><p style="text-align: center"><b>Tabela 5:</b> Editar Perfil </p></font>
+
+![Rafaela](assets/EditaPerfil.png)
+
+<font size="3"><p style="text-align: center"><b>Autor:</b> [Raphaela Guimarães](https://github.com/raphaiela), 2025. </p></font>
+
+</center>
+</details>
+
+---
+
+<details>
+<summary><b>Excluir Perfil</b></summary>
+<center>
+<font size="3"><p style="text-align: center"><b>Tabela 6:</b> Excluir Perfil </p></font>
+
+![Rafaela](assets/ExcluiPerfil.png)
+
+<font size="3"><p style="text-align: center"><b>Autor:</b> [Raphaela Guimarães](https://github.com/raphaiela), 2025. </p></font>
+
+</center>
+</details>
+
+---
+
+<details>
+<summary><b>Administrador: Exclui Conta de Usuário</b></summary>
+<center>
+<font size="3"><p style="text-align: center"><b>Tabela 7:</b> Administrador: Exclui Conta de Usuário </p></font>
+
+![Rafael](assets/ADMExcluiUsuario.png)
+
+<font size="3"><p style="text-align: center"><b>Autor:</b> [Rafael Pereira](https://github.com/rafgpereira), 2025. </p></font>
+
+</center>
+</details>
+
+---
+
+<details>
+<summary><b>Administrador: Exclui Postagem de Usuário</b></summary>
+<center>
+<font size="3"><p style="text-align: center"><b>Tabela 8:</b> Administrador: Exclui Postagem de Usuário </p></font>
+
+![Rafael](assets/ADMExcuiPost.png)
+
+<font size="3"><p style="text-align: center"><b>Autor:</b> [Rafael Pereira](https://github.com/rafgpereira), 2025. </p></font>
+
+</center>
+</details>
+
+---
+
+<details>
+<summary><b>Administrador: Exclui Comentário de Usuário</b></summary>
+<center>
+<font size="3"><p style="text-align: center"><b>Tabela 9:</b> Administrador: Exclui Comentário de Usuário </p></font>
+
+![Rafael](assets/ADMExcluiComen.png)
+
+<font size="3"><p style="text-align: center"><b>Autor:</b> [Rafael Pereira](https://github.com/rafgpereira), 2025. </p></font>
+
+</center>
+</details>
+
+---
+
+<details>
+<summary><b>Visualizar Fórum</b></summary>
+<center>
+<font size="3"><p style="text-align: center"><b>Tabela 10:</b> Visualizar fórum </p></font>
+
+![JP](assets/VisualizaForum.png)
+
+<font size="3"><p style="text-align: center"><b>Autor:</b> [João Pedro](https://github.com/JoaoPedrooSS), 2025. </p></font>
+
+</center>
+</details>
+
+---
+
+<details>
+<summary><b>Visualizar Foto do Dia</b></summary>
+<center>
+<font size="3"><p style="text-align: center"><b>Tabela 11:</b> Visualizar Foto do Dia </p></font>
+
+![Manoel](assets/fotodia.png)
+
+<font size="3"><p style="text-align: center"><b>Autor:</b> [Manoel Moura](https://github.com/manoelmoura), 2025. </p></font>
+
+</center>
+</details>
+
+---
+
+<details>
+<summary><b>Visualizar Astro</b></summary>
+<center>
+<font size="3"><p style="text-align: center"><b>Tabela 12:</b> Visualizar Astro </p></font>
+
+![Manoel](assets/verastro.png)
+
+<font size="3"><p style="text-align: center"><b>Autor:</b> [Manoel Moura](https://github.com/manoelmoura), 2025. </p></font>
+
+</center>
+</details>
+
+---
 
 ## Referências Bibliográficas
 
 >  1. <a id="ref1"></a> BOOCH, Grady; RUMBAUGH, James; JACOBSON, Ivar. *The Unified Modeling Language User Guide*. 2nd ed. Addison-Wesley Professional, 2005.
 >
->  2. <a id="ref2"></a> FOWLER, Martin. *UML Distilled: A Brief Guide to the Standard Object Modeling Language*. 3rd ed. Addison-Wesley Professional, 2003.
+>  2. <a id="ref2"></a> FOWLER, Martin. *UML Essencial: Um breve guia para a linguagem-padrão de modelagem de objetos*. 3rd ed. Addison-Wesley Professional, 2003.
 >
 >  3. <a id="ref3"></a> SATZINGER, John W.; JACKSON, Robert B.; BURD, Stephen D. *Systems Analysis and Design in a Changing World*. 6th ed. Course Technology, 2012.
 >
 >  4. <a id="ref4"></a> LARMAN, Craig. *Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development*. 3rd ed. Prentice Hall, 2004.
 >
+
+
+## Histórico de Versões
+
+| Versão | Data       | Descrição                                      | Autor               | Revisor            |
+|--------|------------|------------------------------------------------|---------------------|--------------------|
+| 1.0 | 08/05/2025 | Criação do documento com divisões a serem preenchidas conforme o padrão.| [Rafael Pereira](https://github.com/rafgpereira)  | [João Pedro](https://github.com/JoaoPedrooSS) |
+| 1.1 | 08/05/2025 | Adição da introdução e metodologia, com suas respectivas referências.| [Rafael Pereira](https://github.com/rafgpereira)  | [Milena Rocha](https://github.com/milenafrocha) |
+| 1.2 | 08/05/2025 | Adição dos Diagramas de Sequência completos| [Rafael Pereira](https://github.com/rafgpereira)  | [João Pedro](https://github.com/JoaoPedrooSS)  |
