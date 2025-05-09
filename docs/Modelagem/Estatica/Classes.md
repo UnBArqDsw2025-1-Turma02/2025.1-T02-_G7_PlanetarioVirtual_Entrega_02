@@ -126,7 +126,7 @@ Essa padronização na representação é fundamental para garantir a clareza e 
 
 ## Diagrama de Classe do Planetário Virtual
 
-Para a elaboração deste artefato, foram realizadas duas reuniões online com os cinco integrantes responsáveis. As atas e gravações dessas reuniões estão documentadas no projeto: [Ata - Início do Diagrama de Classes](Modelagem/Extra/Atas/ata2.md) e [Ata - Finalização do Diagrama de Classes](Modelagem/Extra/Atas/ata3.md). Foi utilizada a ferramenta Lucidchart para a elaboração do Diagrama UML.
+Para a elaboração deste artefato, foram realizadas duas reuniões online com os cinco integrantes responsáveis. As atas e gravações dessas reuniões estão documentadas no projeto: [Ata - Início do Diagrama de Classes](Modelagem/Extra/Atas/ata2.md) e [Ata - Finalização do Diagrama de Classes](Modelagem/Extra/Atas/ata3.md). Foi utilizada a ferramenta [Lucidchart](Modelagem/Extra/2.5.2Ferramentas.md) para a elaboração do Diagrama UML.
 
 Inicialmente, surgiu uma dúvida sobre o que exatamente representar no diagrama, já que seu escopo pode ser bastante amplo. A principal questão era se o diagrama deveria abranger todo o sistema (incluindo artefatos da interface) ou apenas o domínio, ou seja, as entidades persistentes no sistema. Após discussão em grupo e alinhamento com a professora, decidiu-se por representar somente o domínio. Com base na [Baseline de Requisitos](https://unbarqdsw2025-1-turma02.github.io/2025.1-T02-_G7_PlanetarioVirtual_Entrega_01/#/./Base/Elicitacao/1.6.3RequisitosElicitados), três classes foram prontamente identificadas: `Usuário`, `Postagem` e `Comentário`.
 

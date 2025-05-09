@@ -48,7 +48,7 @@ Ao seguir esta metodologia e utilizar os elementos de forma adequada, foram cria
 
 ## Diagramas de Sequência
 
-Baseado na metodologia acima e nos [Casos de Uso](/Modelagem/Organizacional/CasosDeUso.md) elaborados pela equipe, foram desenvolvidos os diagramas de Sequência UML durante uma reunião online, cuja ata pode ser visualizada clicando aqui: [Ata - Diagrama de Sequência](/Modelagem/Extra/Atas/ata7.md). Algumas ferramentas diferentes foram utilizadas pelo grupo, tais como o Canva e o Mermaid Live Editor, um gerador de diagramas a partir de código mermaid.
+Baseado na metodologia acima e nos [Casos de Uso](/Modelagem/Organizacional/CasosDeUso.md) elaborados pela equipe, foram desenvolvidos os diagramas de Sequência UML durante uma reunião online, cuja ata pode ser visualizada clicando aqui: [Ata - Diagrama de Sequência](/Modelagem/Extra/Atas/ata7.md). Algumas ferramentas diferentes foram utilizadas pelo grupo, tais como o [Canva e o Mermaid Live Editor](Modelagem/Extra/2.5.2Ferramentas.md), um gerador de diagramas a partir de código mermaid.
 
 O grupo avaliou a especificação textual dos [Casos de Uso](/Modelagem/Organizacional/CasosDeUso.md) para elaborar o fluxo do diagrama de sequência, e foi decidido que alguns casos de uso seriam unificados, devido à quantidade e proximidade entre eles.
 

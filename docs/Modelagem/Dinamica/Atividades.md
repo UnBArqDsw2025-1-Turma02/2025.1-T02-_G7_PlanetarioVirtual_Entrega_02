@@ -18,7 +18,7 @@ Diagramas de atividade oferecem uma série de benefícios para os usuários. Con
 
 ## Metodologia
 
-Cinco membros foram responsáveis pela elaboração dos diagramas de atividade, desenvolvidos no Lucidchart. 
+Cinco membros foram responsáveis pela elaboração dos diagramas de atividade, desenvolvidos no [Lucidchart](Modelagem/Extra/2.5.2Ferramentas.md). 
 
 Para criar um diagrama de atividade, é necessário um conjunto de símbolos especiais, incluindo aqueles para dar partida, encerrar, fundir ou receber etapas no fluxo, a tabela abaixo apresenta os elementos da UML utilizados nos diagramas de atividade, seu símbolo, seu nome e a descrição <sup>[2](#ref2)</sup>. 
 

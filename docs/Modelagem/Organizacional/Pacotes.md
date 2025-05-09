@@ -56,7 +56,7 @@ Um dos principais desafios foi garantir que a comunicação entre o frontend e o
 | **Pacotes Representados**| `Frontend`, `Backend`, `Comunicação entre pacotes`                                                                                        |
 | **Descrição Detalhada**  | O diagrama demonstra a arquitetura em três grandes divisões: o pacote `Frontend`, o pacote `Backend` e a relação entre eles. O Frontend é responsável por toda a interação com o usuário e exibição de dados, enquanto o Backend centraliza as regras de negócio e acesso a dados externos (como a API da NASA). A seta entre os pacotes indica dependência unidirecional do Frontend para o Backend. |
 | **Justificativa Arquitetural** | Esta separação de responsabilidades segue o padrão MVC adaptado para aplicações web modernas, facilitando a manutenção, escalabilidade e testabilidade do sistema. |
-| **Ferramenta Utilizada** | Lucidchart                                                                                                                                 |
+| **Ferramenta Utilizada** | [Lucidchart](Modelagem/Extra/2.5.2Ferramentas.md)                                                                                                                                 |
 | **Autores**              | Carlos Paz, João Lucas, Letícia Martins, Taynara Gabrielle e Antônio José                                                                 |
 
 
@@ -99,7 +99,7 @@ O maior desafio foi garantir que os Models e os Repositories tivessem uma relaç
 | **Pacotes Representados**| `Controllers`, `Services`, `Repositories`, `Models`, `Utils`                                                                              |
 | **Descrição Detalhada**  | O diagrama evidencia as seguintes relações entre pacotes:<br>• `Controllers` dependem de `Services`.<br>• `Services` utilizam tanto `Repositories` quanto `Utils` para aplicar a lógica de negócio.<br>• `Repositories` acessam diretamente a API da NASA.<br>• `Models` possuem relação bidirecional com `Repositories` e são também utilizados por `Services`. |
 | **Justificativa Arquitetural** | O design segue princípios de separação de responsabilidades e desacoplamento entre as camadas. Permite alta coesão dentro dos pacotes e baixo acoplamento entre eles, aderindo aos princípios da Clean Architecture. |
-| **Ferramenta Utilizada** | Lucidchart                                                                                                                                 |
+| **Ferramenta Utilizada** | [Lucidchart](Modelagem/Extra/2.5.2Ferramentas.md)                                                                                                                                 |
 | **Autores**              | Carlos Paz, João Lucas, Letícia Martins, Taynara Gabrielle e Antônio José                                                                 |
 
 
@@ -140,7 +140,7 @@ O principal desafio no frontend foi garantir que os Components fossem suficiente
 | **Pacotes Representados**| `Pages`, `Components`, `Services`, `Assets`, `Styles`                                                                                     |
 | **Descrição Detalhada**  | As relações entre os pacotes estão organizadas da seguinte forma:<br>• `Pages` importa `Components`, `Services` e `Assets`.<br>• `Components` usa `Styles` para estilização e `Assets` para recursos visuais.<br>• `Services` fornece acesso a dados e lógica de integração para `Pages`. |
 | **Justificativa Arquitetural** | A separação dos pacotes melhora a reutilização de componentes e a organização do código. O uso de `Pages` como entrada principal da aplicação reflete práticas comuns em frameworks modernos como React e Next.js. |
-| **Ferramenta Utilizada** | Lucidchart                                                                                                                                 |
+| **Ferramenta Utilizada** | [Lucidchart](Modelagem/Extra/2.5.2Ferramentas.md)                                                                                                                                 |
 | **Autores**              | Carlos Paz, João Lucas, Letícia Martins, Taynara Gabrielle e Antônio José                                                                 |
 
 ## Referências Bibliográficas

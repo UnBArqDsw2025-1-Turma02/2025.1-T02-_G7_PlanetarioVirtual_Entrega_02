@@ -76,7 +76,7 @@ Para organizar sistemas maiores, componentes podem ser agrupados em subsistemas,
 <font size="3"><p style="text-align: center"><b>Autores</b>: [João Lucas](https://github.com/jlucasiqueira), [Leticia Martins](https://github.com/leticiatmartins), [Carlos Eduardo](https://github.com/dudupaz), [Taynara Vitorino](https://github.com/taybalau) e [Antônio Júnior](https://github.com/antonioleaojr), 2025.</p></font>
 
 ## Diagrama de Componentes do Planetário Virtual
-Para a confecção do diagrama de Componentes, foram feitas duas reuniões, uma reunião para a divisão de tarefas entre os membros, disponível [aqui](Modelagem/Extra/Atas/ata4.md), e uma segunda reunião para validação do diagrama de componente junto aos membros que estavam presentes na reunião disponível [aqui](Modelagem/Extra/Atas/ata6.md). A ferramenta utilizada para sua elaboração foi o Draw.io.
+Para a confecção do diagrama de Componentes, foram feitas duas reuniões, uma reunião para a divisão de tarefas entre os membros, disponível [aqui](Modelagem/Extra/Atas/ata4.md), e uma segunda reunião para validação do diagrama de componente junto aos membros que estavam presentes na reunião disponível [aqui](Modelagem/Extra/Atas/ata6.md). A ferramenta utilizada para sua elaboração foi o [Draw.io](Modelagem/Extra/2.5.2Ferramentas.md).
 
 A elaboração do diagrama de componentes foi inicialmente designada a dois membros principais da equipe, conforme registrado na primeira reunião supracitada. Os demais integrantes participariam subsequentemente na validação do diagrama, colaborando em seu refinamento e nos ajustes finais.
 
